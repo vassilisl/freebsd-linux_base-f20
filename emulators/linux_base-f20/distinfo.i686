@@ -82,3 +82,5 @@ SHA256 (rpm/i686/fedora/20/y/ypbind-1.37.1-7.fc20.i686.rpm) = bddb6cc9a21557b9eb
 SIZE (rpm/i686/fedora/20/y/ypbind-1.37.1-7.fc20.i686.rpm) = 63812
 SHA256 (rpm/i686/fedora/20/z/zlib-1.2.8-3.fc20.i686.rpm) = 9feec2b4990a3f191f0c2217afa0605949c9d819a6c9d9772d48b3690ae31da6
 SIZE (rpm/i686/fedora/20/z/zlib-1.2.8-3.fc20.i686.rpm) = 93372
+SHA256 (rpm/i686/fedora/20/f/filesystem-3.2-19.fc20.i686.rpm) = 53d202c99809ba9ac3e28419cfb57ba3f9c29cc546332279287dc3b5d7bd9b74
+SIZE (rpm/i686/fedora/20/f/filesystem-3.2-19.fc20.i686.rpm) = 1064256

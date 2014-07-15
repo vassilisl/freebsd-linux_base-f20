@@ -15,8 +15,6 @@ EXTRACT_ONLY=		${BIN_DISTFILES}
 MAINTAINER=	emulation@FreeBSD.org
 COMMENT=	Base set of Fedora 20 linux packages for i386/amd64 emulation
 
-				#f/filesystem-3.2-19.fc${PORTVERSION}.${LINUX_RPM_ARCH}.rpm
-
 BIN_DISTFILES=	\
 				b/basesystem-10.0-9.fc${PORTVERSION}.noarch.rpm \
 				b/bash-4.2.45-4.fc${PORTVERSION}.${LINUX_RPM_ARCH}.rpm \
@@ -28,6 +26,7 @@ BIN_DISTFILES=	\
 				e/e2fsprogs-libs-1.42.8-3.fc${PORTVERSION}.${LINUX_RPM_ARCH}.rpm \
 				e/elfutils-0.157-1.fc${PORTVERSION}.${LINUX_RPM_ARCH}.rpm \
 				f/fedora-release-${PORTVERSION}-1.noarch.rpm \
+				f/filesystem-3.2-19.fc${PORTVERSION}.${LINUX_RPM_ARCH}.rpm \
 				f/freetype-2.5.0-4.fc${PORTVERSION}.${LINUX_RPM_ARCH}.rpm \
 				g/gamin-0.1.10-15.fc${PORTVERSION}.${LINUX_RPM_ARCH}.rpm \
 				g/gdbm-1.10-7.fc${PORTVERSION}.${LINUX_RPM_ARCH}.rpm \
@@ -72,6 +71,10 @@ NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 PLIST_SUB=		GLIBCVER="2.18"
 
+EXTRACT_CMD?=		${TAR}
+EXTRACT_BEFORE_ARGS?=	-xPf
+EXTRACT_AFTER_ARGS?=
+
 .include <bsd.port.pre.mk>
 
 .if !defined(PACKAGE_BUILDING) || (defined(PACKAGE_BUILDING) && !defined(LINUX_OSRELEASE) )
@@ -103,6 +106,17 @@ FALLBACK_ELF_MIB=	kern.fallback_elf_brand
 .if (${ARCH} == "amd64")
 LATEST_LINK:=		${PKGBASE:C/linux/linux32/}
 .endif
+
+do-extract:
+	${RM} -rf ${WRKDIR}
+	${MKDIR} ${WRKDIR}
+
+.for file in ${EXTRACT_ONLY}
+	if ! (cd ${WRKDIR} && ${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} ${_DISTDIR}/${file} ${EXTRACT_AFTER_ARGS});\
+	then \
+		exit 1; \
+	fi
+.endfor
 
 do-build:
 	@for D in ${REMOVE_DIRS}; do \
@@ -158,11 +172,11 @@ do-install:
 	@cd ${WRKSRC} && ${FIND} * ! -path "stage/*" ! -type d \
 		| ${CPIO} -pm -R root:wheel ${STAGEDIR}${PREFIX}
 
-	@${LN} -sf /var/tmp ${STAGEDIR}${PREFIX}/usr/tmp
-	@${LN} -sf ../usr/bin/[ ${STAGEDIR}${PREFIX}/bin/[
-	@${LN} -sf ../usr/bin/expr ${STAGEDIR}${PREFIX}/bin/expr
-	@${LN} -sf ../usr/bin/test ${STAGEDIR}${PREFIX}/bin/test
-	@${LN} -sf ../usr/bin/uuidgen ${STAGEDIR}${PREFIX}/bin/uuidgen
+	@${LN} -sf ${PREFIX}/bin ${STAGEDIR}${PREFIX}/bin
+	@${LN} -sf ${PREFIX}/sbin ${STAGEDIR}${PREFIX}/usr/sbin
+	@${LN} -sf ${PREFIX}/lib ${STAGEDIR}${PREFIX}/usr/lib
+	@${LN} -sf ${PREFIX}/usr/tmp ${STAGEDIR}${PREFIX}/var/tmp
+
 	#@${CHMOD} 755 ${STAGEDIR}${PREFIX}/var/lock ${STAGEDIR}${PREFIX}/var/spool/mail
 #
 # Let some linux applications (e.g. print/acroread8) print with default settings
