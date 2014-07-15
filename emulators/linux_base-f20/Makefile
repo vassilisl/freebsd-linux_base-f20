@@ -1,4 +1,5 @@
-# Created by: Vassilis
+# Created by: Vassilis based on the f10 port by bsam
+
 # $FreeBSD$
 
 PORTNAME=		f20
