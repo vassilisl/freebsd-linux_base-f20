@@ -251,7 +251,6 @@ usr/bin/unexpand
 usr/bin/uniq
 usr/bin/unlink
 usr/bin/users
-usr/bin/uuidgen
 usr/bin/vdir
 usr/bin/wait
 usr/bin/wc
