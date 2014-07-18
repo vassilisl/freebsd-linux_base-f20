@@ -4,23 +4,24 @@
 PORTNAME=	webp
 PORTVERSION=	1
 CATEGORIES=	graphics www linux
-MASTER_SITES=		http://archives.fedoraproject.org/pub/fedora/linux/releases/${DISTVERSION}/Everything/${LINUX_CPU_ARCH}/os/Packages/
+MASTER_SITES=		http://archives.fedoraproject.org/pub/fedora/linux/releases/${LINUX_RPM_VERSION}/Everything/${LINUX_CPU_ARCH}/os/Packages/
 PKGNAMEPREFIX=	linux-f20-
-DISTVERSION=	20
+DISTFILES=	${BIN_DISTFILES}
 
-DISTFILES=	\
-			l/libwebp-0.3.1-2.fc${DISTVERSION}.${LINUX_RPM_ARCH}.rpm
+MAINTAINER=	emulation@FreeBSD.org
+COMMENT=	RPM of WebP libs (Linux Fedora 20)
+
+BIN_DISTFILES=	\
+			l/libwebp-0.3.1-2.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm
 
 ONLY_FOR_ARCHS=	i386 amd64
 LINUX_CPU_ARCH=		i386
 LINUX_RPM_ARCH=		i686
+LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 USE_LINUX=			f20
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
-
-MAINTAINER=	emulation@FreeBSD.org
-COMMENT=	RPM of WebP libs (Linux Fedora 20)
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
