@@ -546,6 +546,8 @@ usr/lib/libcap.so.2
 usr/lib/libcap.so.2.22
 usr/lib/libcidn-%%GLIBCVER%%.so
 usr/lib/libcidn.so.1
+usr/lib/libcom_err.so.2
+usr/lib/libcom_err.so.2.1
 usr/lib/libcrypt-%%GLIBCVER%%.so
 usr/lib/libcrypt.so.1
 usr/lib/libdl-%%GLIBCVER%%.so
@@ -868,6 +870,7 @@ usr/share/doc/krb5-libs/examples/krb5.conf
 usr/share/doc/krb5-libs/examples/services.append
 usr/share/doc/libcap/License
 usr/share/doc/libcap/capability.notes
+usr/share/doc/libcom_err/COPYING
 usr/share/doc/libgcc/COPYING
 usr/share/doc/libgcc/COPYING.LIB
 usr/share/doc/libgcc/COPYING.RUNTIME
@@ -2207,6 +2210,7 @@ var/yp/nicknames
 @dirrmtry usr/share/doc/krb5-libs/examples
 @dirrmtry usr/share/doc/krb5-libs
 @dirrmtry usr/share/doc/libcap
+@dirrmtry usr/share/doc/libcom_err
 @dirrmtry usr/share/doc/libgcc
 @dirrmtry usr/share/doc/libidn
 @dirrmtry usr/share/doc/libidn2

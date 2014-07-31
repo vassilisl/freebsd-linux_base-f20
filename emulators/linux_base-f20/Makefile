@@ -39,6 +39,7 @@ BIN_DISTFILES=	\
 				l/libacl-2.2.52-4.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 				l/libattr-2.4.47-3.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 				l/libcap-2.22-7.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
+				l/libcom_err-1.42.8-3.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 				l/libgcc-4.8.2-1.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 				l/libidn-1.28-2.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 				l/libidn2-0.8-5.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
