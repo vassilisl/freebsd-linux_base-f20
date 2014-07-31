@@ -3,7 +3,7 @@
 
 PORTNAME=	gstreamer-plugin-base
 PORTVERSION=	1
-CATEGORIES=	devel linux
+CATEGORIES=	multimedia linux
 MASTER_SITES=		http://archives.fedoraproject.org/pub/fedora/linux/releases/${LINUX_RPM_VERSION}/Everything/${LINUX_CPU_ARCH}/os/Packages/
 PKGNAMEPREFIX=	linux-f20-
 DISTFILES=	${BIN_DISTFILES}
