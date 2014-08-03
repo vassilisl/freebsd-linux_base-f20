@@ -1,9 +1,9 @@
 # Created by: Vassilis
 # $FreeBSD$
 
-PORTNAME=	xorg-libs
+PORTNAME=	openssl-libs
 PORTVERSION=	1
-CATEGORIES=		x11 linux
+CATEGORIES=		security linux
 MASTER_SITES=		http://archives.fedoraproject.org/pub/fedora/linux/releases/${LINUX_RPM_VERSION}/Everything/${LINUX_CPU_ARCH}/os/Packages/
 PKGNAMEPREFIX=	linux-f20-
 DISTFILES=	${BIN_DISTFILES}
