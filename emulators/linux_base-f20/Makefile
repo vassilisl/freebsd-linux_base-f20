@@ -178,6 +178,8 @@ do-install:
 	@${LN} -sf ${PREFIX}/lib ${STAGEDIR}${PREFIX}/usr/lib
 	@${LN} -sf ${PREFIX}/usr/tmp ${STAGEDIR}${PREFIX}/var/tmp
 
+	@${CHMOD} 1777 ${STAGEDIR}${PREFIX}/tmp ${STAGEDIR}${PREFIX}/var/tmp ${STAGEDIR}${PREFIX}/var/run
+
 	#@${CHMOD} 755 ${STAGEDIR}${PREFIX}/var/lock ${STAGEDIR}${PREFIX}/var/spool/mail
 #
 # Let some linux applications (e.g. print/acroread8) print with default settings
