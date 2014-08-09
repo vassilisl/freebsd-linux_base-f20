@@ -117,6 +117,8 @@ usr/bin/df
 usr/bin/dir
 usr/bin/dircolors
 usr/bin/dirname
+usr/bin/dnsdomainname
+usr/bin/domainname
 usr/bin/du
 usr/bin/echo
 usr/bin/egrep
@@ -156,6 +158,7 @@ usr/bin/groups
 usr/bin/gsettings
 usr/bin/head
 usr/bin/hostid
+usr/bin/hostname
 usr/bin/iconv
 usr/bin/id
 usr/bin/idn
@@ -184,6 +187,7 @@ usr/bin/mknod
 usr/bin/mktemp
 usr/bin/mv
 usr/bin/nice
+usr/bin/nisdomainname
 usr/bin/nl
 usr/bin/nohup
 usr/bin/nproc
@@ -260,6 +264,7 @@ usr/bin/yes
 usr/bin/ypcat
 usr/bin/ypchfn
 usr/bin/ypchsh
+usr/bin/ypdomainname
 usr/bin/ypmatch
 usr/bin/yppasswd
 usr/bin/ypwhich
@@ -860,6 +865,7 @@ usr/share/doc/grep/NEWS
 usr/share/doc/grep/README
 usr/share/doc/grep/THANKS
 usr/share/doc/grep/TODO
+usr/share/doc/hostname/COPYRIGHT
 usr/share/doc/info/COPYING
 usr/share/doc/keyutils-libs/LICENCE.LGPL
 usr/share/doc/krb5-libs/LICENSE
@@ -1908,6 +1914,8 @@ usr/share/man/man1/dircolors.1.gz
 usr/share/man/man1/dirname.1.gz
 usr/share/man/man1/dirs.1.gz
 usr/share/man/man1/disown.1.gz
+usr/share/man/man1/dnsdomainname.1.gz
+usr/share/man/man1/domainname.1.gz
 usr/share/man/man1/du.1.gz
 usr/share/man/man1/echo.1.gz
 usr/share/man/man1/egrep.1.gz
@@ -1938,6 +1946,7 @@ usr/share/man/man1/head.1.gz
 usr/share/man/man1/help.1.gz
 usr/share/man/man1/history.1.gz
 usr/share/man/man1/hostid.1.gz
+usr/share/man/man1/hostname.1.gz
 usr/share/man/man1/id.1.gz
 usr/share/man/man1/idn.1.gz
 usr/share/man/man1/idn2.1.gz
@@ -1965,6 +1974,7 @@ usr/share/man/man1/mknod.1.gz
 usr/share/man/man1/mktemp.1.gz
 usr/share/man/man1/mv.1.gz
 usr/share/man/man1/nice.1.gz
+usr/share/man/man1/nisdomainname.1.gz
 usr/share/man/man1/nl.1.gz
 usr/share/man/man1/nohup.1.gz
 usr/share/man/man1/nproc.1.gz
@@ -2049,6 +2059,7 @@ usr/share/man/man1/yes.1.gz
 usr/share/man/man1/ypcat.1.gz
 usr/share/man/man1/ypchfn.1.gz
 usr/share/man/man1/ypchsh.1.gz
+usr/share/man/man1/ypdomainname.1.gz
 usr/share/man/man1/ypmatch.1.gz
 usr/share/man/man1/yppasswd.1.gz
 usr/share/man/man1/ypwhich.1.gz
@@ -2205,6 +2216,7 @@ var/yp/nicknames
 @dirrmtry usr/share/doc/glibc
 @dirrmtry usr/share/doc/glibc-common
 @dirrmtry usr/share/doc/grep
+@dirrmtry usr/share/doc/hostname
 @dirrmtry usr/share/doc/info
 @dirrmtry usr/share/doc/keyutils-libs
 @dirrmtry usr/share/doc/krb5-libs/examples
