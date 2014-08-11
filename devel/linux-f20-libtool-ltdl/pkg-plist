@@ -1,0 +1,8 @@
+usr/lib/libltdl.so.7
+usr/lib/libltdl.so.7.3.0
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING.LIB
+@dirrmtry usr/lib
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
+@dirrmtry usr/share/doc
+@dirrmtry usr/share
+@dirrmtry usr
