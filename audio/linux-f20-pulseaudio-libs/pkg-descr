@@ -1,0 +1,2 @@
+This package contains the runtime libraries for any application that wishes
+to interface with a PulseAudio sound server. Brought in from Fedora 20.

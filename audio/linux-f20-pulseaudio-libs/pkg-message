@@ -1,0 +1,29 @@
+
+
+!!!PulseAudio support is still EXPERIMENTAL!!!
+
+Make sure that pulseaudio works natively on your system before trying to set
+this up.
+
+Additional steps
+----------------
+
+You need to set PULSE_COOKIE environment variable as to
+
+    PULSE_COOKIE = $HOME/.pulse-cookie
+
+or else the Linux client will try to use the cookie at
+$HOME/.config/pulse/cookie which is not the one that the FreeBSD server is
+checking against.
+
+Also you might want to set the default sink, as an environment variable or
+in /compat/linux/etc/pulse/client.conf, so that it matches your system's
+configuration. e.g.:
+
+    PULSE_SINK = oss_output.dsp1
+
+Might be a good idea to add these to your shell .rc
+
+!!!PulseAudio support is still EXPERIMENTAL!!!
+
+

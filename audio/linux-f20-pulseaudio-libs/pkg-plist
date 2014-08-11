@@ -1,0 +1,127 @@
+etc/pulse/client.conf
+usr/lib/libpulse-simple.so.0
+usr/lib/libpulse-simple.so.0.0.4
+usr/lib/libpulse.so.0
+usr/lib/libpulse.so.0.16.2
+usr/lib/pulseaudio/libpulsecommon-4.0.la
+usr/lib/pulseaudio/libpulsecommon-4.0.so
+usr/lib/pulseaudio/libpulsedsp.la
+usr/lib/pulseaudio/libpulsedsp.so
+%%PORTDOCS%%usr/%%DOCSDIR%%/GPL
+%%PORTDOCS%%usr/%%DOCSDIR%%/LGPL
+%%PORTDOCS%%usr/%%DOCSDIR%%/LICENSE
+%%PORTDOCS%%usr/%%DOCSDIR%%/README
+usr/share/locale/as/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/bn_IN/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/ca/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/cs/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/de/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/de_CH/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/el/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/es/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/fi/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/fr/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/gu/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/he/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/hi/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/hu/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/id/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/it/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/ja/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/kn/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/ml/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/mr/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/nl/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/or/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/pa/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/pl/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/pt/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/pt_BR/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/ru/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/sr/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/sr@latin/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/sv/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/ta/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/te/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/uk/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/zh_CN/LC_MESSAGES/pulseaudio.mo
+usr/share/locale/zh_TW/LC_MESSAGES/pulseaudio.mo
+@dirrmtry etc/pulse
+@dirrmtry etc
+@dirrmtry usr/lib/pulseaudio
+@dirrmtry usr/lib
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
+@dirrmtry usr/share/doc
+@dirrmtry usr/share/locale/as/LC_MESSAGES
+@dirrmtry usr/share/locale/as
+@dirrmtry usr/share/locale/bn_IN/LC_MESSAGES
+@dirrmtry usr/share/locale/bn_IN
+@dirrmtry usr/share/locale/ca/LC_MESSAGES
+@dirrmtry usr/share/locale/ca
+@dirrmtry usr/share/locale/cs/LC_MESSAGES
+@dirrmtry usr/share/locale/cs
+@dirrmtry usr/share/locale/de/LC_MESSAGES
+@dirrmtry usr/share/locale/de
+@dirrmtry usr/share/locale/de_CH/LC_MESSAGES
+@dirrmtry usr/share/locale/de_CH
+@dirrmtry usr/share/locale/el/LC_MESSAGES
+@dirrmtry usr/share/locale/el
+@dirrmtry usr/share/locale/es/LC_MESSAGES
+@dirrmtry usr/share/locale/es
+@dirrmtry usr/share/locale/fi/LC_MESSAGES
+@dirrmtry usr/share/locale/fi
+@dirrmtry usr/share/locale/fr/LC_MESSAGES
+@dirrmtry usr/share/locale/fr
+@dirrmtry usr/share/locale/gu/LC_MESSAGES
+@dirrmtry usr/share/locale/gu
+@dirrmtry usr/share/locale/he/LC_MESSAGES
+@dirrmtry usr/share/locale/he
+@dirrmtry usr/share/locale/hi/LC_MESSAGES
+@dirrmtry usr/share/locale/hi
+@dirrmtry usr/share/locale/hu/LC_MESSAGES
+@dirrmtry usr/share/locale/hu
+@dirrmtry usr/share/locale/id/LC_MESSAGES
+@dirrmtry usr/share/locale/id
+@dirrmtry usr/share/locale/it/LC_MESSAGES
+@dirrmtry usr/share/locale/it
+@dirrmtry usr/share/locale/ja/LC_MESSAGES
+@dirrmtry usr/share/locale/ja
+@dirrmtry usr/share/locale/kn/LC_MESSAGES
+@dirrmtry usr/share/locale/kn
+@dirrmtry usr/share/locale/ml/LC_MESSAGES
+@dirrmtry usr/share/locale/ml
+@dirrmtry usr/share/locale/mr/LC_MESSAGES
+@dirrmtry usr/share/locale/mr
+@dirrmtry usr/share/locale/nl/LC_MESSAGES
+@dirrmtry usr/share/locale/nl
+@dirrmtry usr/share/locale/or/LC_MESSAGES
+@dirrmtry usr/share/locale/or
+@dirrmtry usr/share/locale/pa/LC_MESSAGES
+@dirrmtry usr/share/locale/pa
+@dirrmtry usr/share/locale/pl/LC_MESSAGES
+@dirrmtry usr/share/locale/pl
+@dirrmtry usr/share/locale/pt/LC_MESSAGES
+@dirrmtry usr/share/locale/pt
+@dirrmtry usr/share/locale/pt_BR/LC_MESSAGES
+@dirrmtry usr/share/locale/pt_BR
+@dirrmtry usr/share/locale/ru/LC_MESSAGES
+@dirrmtry usr/share/locale/ru
+@dirrmtry usr/share/locale/sr/LC_MESSAGES
+@dirrmtry usr/share/locale/sr
+@dirrmtry usr/share/locale/sr@latin/LC_MESSAGES
+@dirrmtry usr/share/locale/sr@latin
+@dirrmtry usr/share/locale/sv/LC_MESSAGES
+@dirrmtry usr/share/locale/sv
+@dirrmtry usr/share/locale/ta/LC_MESSAGES
+@dirrmtry usr/share/locale/ta
+@dirrmtry usr/share/locale/te/LC_MESSAGES
+@dirrmtry usr/share/locale/te
+@dirrmtry usr/share/locale/uk/LC_MESSAGES
+@dirrmtry usr/share/locale/uk
+@dirrmtry usr/share/locale/zh_CN/LC_MESSAGES
+@dirrmtry usr/share/locale/zh_CN
+@dirrmtry usr/share/locale/zh_TW/LC_MESSAGES
+@dirrmtry usr/share/locale/zh_TW
+@dirrmtry usr/share/locale
+@dirrmtry usr/share
+@dirrmtry usr
