@@ -1,0 +1,7 @@
+Secret Rabbit Code is a sample rate converter for audio. It is capable
+of arbitrary and time varying conversions. It can downsample by a
+factor of 12 and upsample by the same factor. The ratio of input and
+output sample rates can be a real number. The conversion ratio can
+also vary with time for speeding up and slowing down effects
+
+Brought in from Fedora 20.

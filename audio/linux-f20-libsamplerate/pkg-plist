@@ -1,0 +1,29 @@
+usr/bin/sndfile-resample
+usr/lib/libsamplerate.so.0
+usr/lib/libsamplerate.so.0.1.8
+%%PORTDOCS%%usr/%%DOCSDIR%%/AUTHORS
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING
+%%PORTDOCS%%usr/%%DOCSDIR%%/ChangeLog
+%%PORTDOCS%%usr/%%DOCSDIR%%/NEWS
+%%PORTDOCS%%usr/%%DOCSDIR%%/README
+%%PORTDOCS%%usr/%%DOCSDIR%%/SRC.css
+%%PORTDOCS%%usr/%%DOCSDIR%%/SRC.png
+%%PORTDOCS%%usr/%%DOCSDIR%%/api.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/api_callback.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/api_full.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/api_misc.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/api_simple.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/download.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/faq.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/history.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/index.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/license.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/lists.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/quality.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/win32.html
+@dirrmtry usr/bin
+@dirrmtry usr/lib
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
+@dirrmtry usr/share/doc
+@dirrmtry usr/share
+@dirrmtry usr
