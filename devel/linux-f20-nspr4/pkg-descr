@@ -1,0 +1,6 @@
+SPR provides platform independence for non-GUI operating system
+facilities. These facilities include threads, thread synchronization,
+normal file and network I/O, interval timing and calendar time, basic
+memory management (malloc and free) and shared library linking.
+
+Brought in from Fedora 20.

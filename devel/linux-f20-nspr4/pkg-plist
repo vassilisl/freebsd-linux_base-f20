@@ -1,0 +1,5 @@
+usr/lib/libnspr4.so
+usr/lib/libplc4.so
+usr/lib/libplds4.so
+@dirrmtry usr/lib
+@dirrmtry usr
