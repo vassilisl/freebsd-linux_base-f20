@@ -1,0 +1,9 @@
+The libtiff package contains a library of functions for manipulating
+TIFF (Tagged Image File Format) image format files.  TIFF is a widely
+used file format for bitmapped images.  TIFF files usually end in the
+.tif extension and they are often quite large.
+
+The libtiff package should be installed if you need to manipulate TIFF
+format image files.
+
+Brought it from Fedora 20.

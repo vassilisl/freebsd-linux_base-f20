@@ -1,0 +1,13 @@
+usr/lib/libtiff.so.5
+usr/lib/libtiff.so.5.2.0
+usr/lib/libtiffxx.so.5
+usr/lib/libtiffxx.so.5.2.0
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYRIGHT
+%%PORTDOCS%%usr/%%DOCSDIR%%/README
+%%PORTDOCS%%usr/%%DOCSDIR%%/RELEASE-DATE
+%%PORTDOCS%%usr/%%DOCSDIR%%/VERSION
+@dirrmtry usr/lib
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
+@dirrmtry usr/share/doc
+@dirrmtry usr/share
+@dirrmtry usr
