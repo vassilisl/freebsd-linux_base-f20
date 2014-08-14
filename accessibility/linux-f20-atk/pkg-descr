@@ -1,0 +1,7 @@
+The ATK library provides a set of interfaces for adding accessibility
+support to applications and graphical user interface toolkits. By
+supporting the ATK interfaces, an application or toolkit can be used
+with tools such as screen readers, magnifiers, and alternative input
+devices.
+
+Part of Fedora 20.

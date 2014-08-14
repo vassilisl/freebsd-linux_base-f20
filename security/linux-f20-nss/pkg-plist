@@ -1,0 +1,23 @@
+etc/pki/nssdb/cert8.db
+etc/pki/nssdb/key3.db
+etc/pki/nssdb/secmod.db
+usr/lib/libnss3.so
+usr/lib/libnsspem.so
+usr/lib/libsmime3.so
+usr/lib/libssl3.so
+usr/lib/nss/libnssckbi.so
+usr/share/man/man5/cert8.db.5.gz
+usr/share/man/man5/cert9.db.5.gz
+usr/share/man/man5/key3.db.5.gz
+usr/share/man/man5/key4.db.5.gz
+usr/share/man/man5/pkcs11.txt.5.gz
+usr/share/man/man5/secmod.db.5.gz
+@dirrmtry etc/pki/nssdb
+@dirrmtry etc/pki
+@dirrmtry etc
+@dirrmtry usr/lib/nss
+@dirrmtry usr/lib
+@dirrmtry usr/share/man/man5
+@dirrmtry usr/share/man
+@dirrmtry usr/share
+@dirrmtry usr
