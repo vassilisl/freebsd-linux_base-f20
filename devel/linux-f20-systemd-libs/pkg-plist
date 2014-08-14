@@ -1,0 +1,15 @@
+usr/lib/libnss_myhostname.so.2
+usr/lib/libsystemd-daemon.so.0
+usr/lib/libsystemd-daemon.so.0.0.10
+usr/lib/libsystemd-id128.so.0
+usr/lib/libsystemd-id128.so.0.0.26
+usr/lib/libsystemd-journal.so.0
+usr/lib/libsystemd-journal.so.0.11.3
+usr/lib/libsystemd-login.so.0
+usr/lib/libsystemd-login.so.0.9.1
+usr/lib/libudev.so.1
+usr/lib/libudev.so.1.4.0
+usr/lib/security/pam_systemd.so
+@dirrmtry usr/lib/security
+@dirrmtry usr/lib
+@dirrmtry usr
