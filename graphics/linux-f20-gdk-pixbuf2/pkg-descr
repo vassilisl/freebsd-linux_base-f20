@@ -1,0 +1,5 @@
+gdk-pixbuf is an image loading library that can be extended by loadable
+modules for new image formats. It is used by toolkits such as GTK+ or
+clutter.
+
+Brought it from Fedora 20.

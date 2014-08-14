@@ -1,0 +1,12 @@
+Pango is a library for laying out and rendering of text, with an emphasis
+on internationalization. Pango can be used anywhere that text layout is needed,
+though most of the work on Pango so far has been done in the context of the
+GTK+ widget toolkit. Pango forms the core of text and font handling for GTK+.
+
+Pango is designed to be modular; the core Pango layout engine can be used
+with different font backends.
+
+The integration of Pango with Cairo provides a complete solution with high
+quality text handling and graphics rendering.
+
+Brought it from Fedora 20.
