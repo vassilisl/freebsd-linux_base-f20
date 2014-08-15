@@ -1,0 +1,12 @@
+usr/lib/libssh2.so.1
+usr/lib/libssh2.so.1.0.1
+%%PORTDOCS%%usr/%%DOCSDIR%%/AUTHORS
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING
+%%PORTDOCS%%usr/%%DOCSDIR%%/ChangeLog
+%%PORTDOCS%%usr/%%DOCSDIR%%/NEWS
+%%PORTDOCS%%usr/%%DOCSDIR%%/README
+@dirrmtry usr/lib
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
+@dirrmtry usr/share/doc
+@dirrmtry usr/share
+@dirrmtry usr

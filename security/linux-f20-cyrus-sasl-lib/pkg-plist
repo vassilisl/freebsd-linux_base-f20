@@ -1,0 +1,38 @@
+usr/lib/libsasl2.so.3
+usr/lib/libsasl2.so.3.0.0
+usr/lib/sasl2/libanonymous.so
+usr/lib/sasl2/libanonymous.so.3
+usr/lib/sasl2/libanonymous.so.3.0.0
+usr/lib/sasl2/libsasldb.so
+usr/lib/sasl2/libsasldb.so.3
+usr/lib/sasl2/libsasldb.so.3.0.0
+usr/sbin/sasldblistusers2
+usr/sbin/saslpasswd2
+%%PORTDOCS%%usr/%%DOCSDIR%%/AUTHORS
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING
+%%PORTDOCS%%usr/%%DOCSDIR%%/NEWS
+%%PORTDOCS%%usr/%%DOCSDIR%%/README
+%%PORTDOCS%%usr/%%DOCSDIR%%/advanced.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/appconvert.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/components.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/gssapi.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/index.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/install.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/macosx.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/mechanisms.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/options.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/plugprog.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/programming.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/readme.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/sysadmin.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/upgrading.html
+%%PORTDOCS%%usr/%%DOCSDIR%%/windows.html
+@dirrmtry etc/sasl2
+@dirrmtry etc
+@dirrmtry usr/lib/sasl2
+@dirrmtry usr/lib
+@dirrmtry usr/sbin
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
+@dirrmtry usr/share/doc
+@dirrmtry usr/share
+@dirrmtry usr

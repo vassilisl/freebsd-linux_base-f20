@@ -1,0 +1,29 @@
+%%ETCDIR%%/ldap.conf
+usr/lib/liblber-2.4.so.2
+usr/lib/liblber-2.4.so.2.9.2
+usr/lib/libldap-2.4.so.2
+usr/lib/libldap-2.4.so.2.9.2
+usr/lib/libldap_r-2.4.so.2
+usr/lib/libldap_r-2.4.so.2.9.2
+usr/lib/libslapi-2.4.so.2
+usr/lib/libslapi-2.4.so.2.9.2
+usr/libexec/openldap/create-certdb.sh
+%%PORTDOCS%%usr/%%DOCSDIR%%/ANNOUNCEMENT
+%%PORTDOCS%%usr/%%DOCSDIR%%/CHANGES
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYRIGHT
+%%PORTDOCS%%usr/%%DOCSDIR%%/LICENSE
+%%PORTDOCS%%usr/%%DOCSDIR%%/README
+usr/share/man/man5/ldap.conf.5.gz
+usr/share/man/man5/ldif.5.gz
+@dirrmtry %%ETCDIR%%/certs
+@dirrmtry %%ETCDIR%%
+@dirrmtry etc
+@dirrmtry usr/lib
+@dirrmtry usr/libexec/openldap
+@dirrmtry usr/libexec
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
+@dirrmtry usr/share/doc
+@dirrmtry usr/share/man/man5
+@dirrmtry usr/share/man
+@dirrmtry usr/share
+@dirrmtry usr

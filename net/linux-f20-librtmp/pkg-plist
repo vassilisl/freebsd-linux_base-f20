@@ -1,0 +1,7 @@
+usr/lib/librtmp.so.0
+%%PORTDOCS%%usr/%%DOCSDIR%%-2.4/COPYING
+@dirrmtry usr/lib
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%-2.4
+@dirrmtry usr/share/doc
+@dirrmtry usr/share
+@dirrmtry usr

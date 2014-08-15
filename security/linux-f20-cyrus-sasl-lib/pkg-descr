@@ -1,0 +1,4 @@
+The cyrus-sasl-lib package contains shared libraries which are needed by
+applications which use the Cyrus SASL library.
+
+Part of Fedora 20.

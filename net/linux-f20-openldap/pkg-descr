@@ -1,0 +1,9 @@
+penLDAP is an open source suite of LDAP (Lightweight Directory Access
+Protocol) applications and development tools. LDAP is a set of
+protocols for accessing directory services (usually phone book style
+information, but other information is possible) over the Internet,
+similar to the way DNS (Domain Name System) information is propagated
+over the Internet. The openldap package contains configuration files,
+libraries, and documentation for OpenLDAP.
+
+Part of Fedora 20.

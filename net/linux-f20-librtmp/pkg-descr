@@ -1,0 +1,4 @@
+ilibrtmp is a suport library for RTMP streams. All forms of RTMP are supported,
+including rtmp://, rtmpt://, rtmpe://, rtmpte://, and rtmps://
+
+Brought it from Fedora 20.
