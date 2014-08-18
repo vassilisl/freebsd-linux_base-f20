@@ -1,0 +1,101 @@
+etc/alsa/alsactl.conf
+usr/bin/aconnect
+usr/bin/alsa-info
+usr/bin/alsa-info.sh
+usr/bin/alsaloop
+usr/bin/alsamixer
+usr/bin/alsaucm
+usr/bin/alsaunmute
+usr/bin/amidi
+usr/bin/amixer
+usr/bin/aplay
+usr/bin/aplaymidi
+usr/bin/arecord
+usr/bin/arecordmidi
+usr/bin/aseqdump
+usr/bin/aseqnet
+usr/bin/iecset
+usr/bin/speaker-test
+usr/lib/alsa/init/00main
+usr/lib/alsa/init/ca0106
+usr/lib/alsa/init/default
+usr/lib/alsa/init/hda
+usr/lib/alsa/init/help
+usr/lib/alsa/init/info
+usr/lib/alsa/init/test
+usr/lib/systemd/system/alsa-restore.service
+usr/lib/systemd/system/alsa-state.service
+usr/lib/systemd/system/alsa-store.service
+usr/lib/systemd/system/basic.target.wants/alsa-restore.service
+usr/lib/systemd/system/basic.target.wants/alsa-state.service
+usr/lib/systemd/system/shutdown.target.wants/alsa-store.service
+usr/lib/udev/rules.d/90-alsa-restore.rules
+usr/sbin/alsactl
+usr/share/alsa/init
+usr/share/alsa/speaker-test/sample_map.csv
+usr/share/doc/alsa-utils/COPYING
+usr/share/doc/alsa-utils/ChangeLog
+usr/share/doc/alsa-utils/README
+usr/share/doc/alsa-utils/TODO
+usr/share/locale/de/LC_MESSAGES/alsa-utils.mo
+usr/share/locale/fr/LC_MESSAGES/alsa-utils.mo
+usr/share/locale/ja/LC_MESSAGES/alsa-utils.mo
+usr/share/man/man1/aconnect.1.gz
+usr/share/man/man1/alsactl.1.gz
+usr/share/man/man1/alsaloop.1.gz
+usr/share/man/man1/alsamixer.1.gz
+usr/share/man/man1/alsaunmute.1.gz
+usr/share/man/man1/amidi.1.gz
+usr/share/man/man1/amixer.1.gz
+usr/share/man/man1/aplay.1.gz
+usr/share/man/man1/aplaymidi.1.gz
+usr/share/man/man1/arecord.1.gz
+usr/share/man/man1/arecordmidi.1.gz
+usr/share/man/man1/aseqdump.1.gz
+usr/share/man/man1/aseqnet.1.gz
+usr/share/man/man1/iecset.1.gz
+usr/share/man/man1/speaker-test.1.gz
+usr/share/man/man7/alsactl_init.7.gz
+usr/share/sounds/alsa/Front_Center.wav
+usr/share/sounds/alsa/Front_Left.wav
+usr/share/sounds/alsa/Front_Right.wav
+usr/share/sounds/alsa/Noise.wav
+usr/share/sounds/alsa/Rear_Center.wav
+usr/share/sounds/alsa/Rear_Left.wav
+usr/share/sounds/alsa/Rear_Right.wav
+usr/share/sounds/alsa/Side_Left.wav
+usr/share/sounds/alsa/Side_Right.wav
+@dirrmtry etc/alsa
+@dirrmtry etc
+@dirrmtry usr/bin
+@dirrmtry usr/lib/alsa/init
+@dirrmtry usr/lib/alsa
+@dirrmtry usr/lib/systemd/system/basic.target.wants
+@dirrmtry usr/lib/systemd/system/shutdown.target.wants
+@dirrmtry usr/lib/systemd/system
+@dirrmtry usr/lib/systemd
+@dirrmtry usr/lib/udev/rules.d
+@dirrmtry usr/lib/udev
+@dirrmtry usr/lib
+@dirrmtry usr/sbin
+@dirrmtry usr/share/alsa/speaker-test
+@dirrmtry usr/share/alsa
+@dirrmtry usr/share/doc/alsa-utils
+@dirrmtry usr/share/doc
+@dirrmtry usr/share/locale/de/LC_MESSAGES
+@dirrmtry usr/share/locale/de
+@dirrmtry usr/share/locale/fr/LC_MESSAGES
+@dirrmtry usr/share/locale/fr
+@dirrmtry usr/share/locale/ja/LC_MESSAGES
+@dirrmtry usr/share/locale/ja
+@dirrmtry usr/share/locale
+@dirrmtry usr/share/man/man1
+@dirrmtry usr/share/man/man7
+@dirrmtry usr/share/man
+@dirrmtry usr/share/sounds/alsa
+@dirrmtry usr/share/sounds
+@dirrmtry usr/share
+@dirrmtry usr
+@dirrmtry var/lib/alsa
+@dirrmtry var/lib
+@dirrmtry var
