@@ -1,0 +1,6 @@
+This plugin converts the ALSA API over OSS API.  With this plugin,
+ALSA native apps can run on OSS drivers.
+
+This plugin provides the PCM type "oss".
+
+Part of Fedora 20.

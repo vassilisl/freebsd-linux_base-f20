@@ -1,0 +1,30 @@
+
+Additional steps
+----------------
+
+You need to set the default path for ALSA to be used with all your apps, or
+else you will have to pass -Doss to your aplay from the command line.
+Enter the following in your ~/.asoundrc. Remeber that this will override the
+configuration you may have in
+/compat/linux/usr/share/alsa/alsa.conf.d/99-pulseaudio-default.conf
+
+
+
+
+
+### Default to OSS ###
+
+pcm.!default {
+    type oss
+    hint {
+        show on
+        description "Default ALSA Output (currently Open Sound System)"
+    }
+}
+
+ctl.!default {
+    type oss
+}
+######################
+
+

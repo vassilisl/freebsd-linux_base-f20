@@ -1,0 +1,14 @@
+usr/lib/alsa-lib/libasound_module_ctl_oss.so
+usr/lib/alsa-lib/libasound_module_pcm_oss.so
+usr/share/alsa/alsa.conf.d/50-pcm-oss.conf
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING.GPL
+%%PORTDOCS%%usr/%%DOCSDIR%%/README-pcm-oss
+@dirrmtry usr/lib/alsa-lib
+@dirrmtry usr/lib
+@dirrmtry usr/share/alsa/alsa.conf.d
+@dirrmtry usr/share/alsa
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
+@dirrmtry usr/share/doc
+@dirrmtry usr/share
+@dirrmtry usr
