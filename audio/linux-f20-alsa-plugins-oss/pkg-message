@@ -1,15 +1,18 @@
 
+Make sure native OSS works correctly on your system before trying to set
+this up.
+
 Additional steps
 ----------------
+
+Check that /compat/linux/usr/share/alsa/alsa.conf.d/50-pcm-oss.conf is set
+to use the correct devices (/dev/dspX and /dev/mixerX).
 
 You need to set the default path for ALSA to be used with all your apps, or
 else you will have to pass -Doss to your aplay from the command line.
 Enter the following in your ~/.asoundrc. Remeber that this will override the
 configuration you may have in
 /compat/linux/usr/share/alsa/alsa.conf.d/99-pulseaudio-default.conf
-
-
-
 
 
 ### Default to OSS ###
