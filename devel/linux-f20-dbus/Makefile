@@ -8,7 +8,7 @@ MASTER_SITES=		http://archives.fedoraproject.org/pub/fedora/linux/releases/${LIN
 PKGNAMEPREFIX=	linux-f20-
 DISTFILES=	${BIN_DISTFILES}
 
-MAINTAINER=	emulation@FreeBSD.org
+MAINTAINER=	vassilis@einval.com
 COMMENT=	D-BUS message bus & X11-requiring add-ons for D-BUS (Linux Fedora 20)
 
 BIN_DISTFILES=	\

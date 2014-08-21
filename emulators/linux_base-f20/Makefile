@@ -10,7 +10,7 @@ DISTFILES=		${BIN_DISTFILES}
 DIST_SUBDIR=		rpm/${LINUX_RPM_ARCH}/fedora/${LINUX_RPM_VERSION}
 EXTRACT_ONLY=		${BIN_DISTFILES}
 
-MAINTAINER=	emulation@FreeBSD.org
+MAINTAINER=	vassilis@einval.com
 COMMENT=	Base set of Fedora 20 linux packages for i386/amd64 emulation
 
 BIN_DISTFILES=	\

@@ -9,7 +9,7 @@ PKGNAMEPREFIX=	linux-f20-
 DISTFILES=	${BIN_DISTFILES}
 EXTRACT_ONLY=		${DISTFILES} ${DISTFILES_DEPS}
 
-MAINTAINER=		emulation@FreeBSD.org
+MAINTAINER=		vassilis@einval.com
 COMMENT=		OpenSSL libs RPM (Linux Fedora 20)
 
 BIN_DISTFILES=	\

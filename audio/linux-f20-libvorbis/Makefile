@@ -10,7 +10,7 @@ DISTFILES=	${BIN_DISTFILES}
 DIST_SUBDIR=		rpm/${LINUX_RPM_ARCH}/fedora/${LINUX_RPM_VERSION}
 EXTRACT_ONLY=		${BIN_DISTFILES}
 
-MAINTAINER=	emulation@FreeBSD.org
+MAINTAINER=	vassilis@einval.com
 COMMENT=	The Vorbis General Audio Compression Codec (Linux Fedora 20)
 
 BIN_DISTFILES=	\
