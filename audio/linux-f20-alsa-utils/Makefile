@@ -1,19 +1,18 @@
 # Created by: vassilis
-# $FreeBSD:$
+# $FreeBSD$
 
 PORTNAME=	alsa-utils
 PORTVERSION=	1
 CATEGORIES=	audio linux
 MASTER_SITES=		http://archives.fedoraproject.org/pub/fedora/linux/releases/${LINUX_RPM_VERSION}/Everything/${LINUX_CPU_ARCH}/os/Packages/
 PKGNAMEPREFIX=	linux-f20-
-DISTFILES=	${BIN_DISTFILES}
 DIST_SUBDIR=		rpm/${LINUX_RPM_ARCH}/fedora/${LINUX_RPM_VERSION}
 EXTRACT_ONLY=		${BIN_DISTFILES}
 
 MAINTAINER=	vassilis@einval.com
-COMMENT=	RPM of Advanced Linux Sound Architecture (ALSA) utilities (Linux Fedora 20)
+COMMENT=	RPM of Advanced Linux Sound Architecture utils (Linux Fedora 20)
 
-BIN_DISTFILES=	\
+DISTFILES=	\
 			a/alsa-utils-1.0.27.2-3.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm
 
 CONFLICTS=	linux-f10-alsa-utils-[0-9]*
@@ -25,6 +24,8 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/usr/lib/libasound.so.2:${PORTSDIR}/audio/linux-f20-alsa-lib \
+					/compat/linux/usr/lib/libsamplerate.so.0:${PORTSDIR}/audio/linux-f20-libsamplerate
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
