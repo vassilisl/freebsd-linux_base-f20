@@ -22,6 +22,10 @@ USE_LINUX_PREFIX=	yes
 USE_LINUX=			f20
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/usr/lib/libFLAC.so.8:${PORTSDIR}/audio/linux-f20-flac-libs \
+					/compat/linux/usr/lib/libgsm.so.1:${PORTSDIR}/audio/linux-f20-libgsm \
+					/compat/linux/usr/lib/libogg.so.0:${PORTSDIR}/audio/linux-f20-libogg \
+					/compat/linux/usr/lib/libvorbis.so.0:${PORTSDIR}/audio/linux-f20-libvorbis
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
