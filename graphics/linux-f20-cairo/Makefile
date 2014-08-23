@@ -1,5 +1,5 @@
-# Created by: Vassilis
-# $FreeBSD:$
+# Created by: vassilis
+# $FreeBSD$
 
 PORTNAME=	cairo
 PORTVERSION=	1
@@ -21,6 +21,9 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/usr/lib/libEGL.so.1:${PORTSDIR}/graphics/linux-f20-mesa-libEGL \
+					/compat/linux/usr/lib/libGL.so.1:${PORTSDIR}/graphics/linux-f20-mesa-libGL \
+					/compat/linux/usr/lib/libpixman-1.so.0:${PORTSDIR}/x11/linux-f20-pixman
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
