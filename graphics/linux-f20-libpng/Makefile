@@ -1,7 +1,7 @@
-# Created by: Vassilis based on the F10 by bsam
+# Created by: vassilis based on the F10 by bsam
 # $FreeBSD$
 
-PORTNAME=	png
+PORTNAME=	libpng
 PORTVERSION=	1
 CATEGORIES=	graphics linux
 MASTER_SITES=		http://archives.fedoraproject.org/pub/fedora/linux/releases/${LINUX_RPM_VERSION}/Everything/${LINUX_CPU_ARCH}/os/Packages/
@@ -24,6 +24,7 @@ USE_LINUX_PREFIX=	yes
 USE_LINUX=			f20
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_base-f20
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
