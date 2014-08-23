@@ -1,0 +1,61 @@
+usr/lib/libgnutls-xssl.so.0
+usr/lib/libgnutls-xssl.so.0.0.0
+usr/lib/libgnutls.so.28
+usr/lib/libgnutls.so.28.20.2
+%%PORTDOCS%%usr/%%DOCSDIR%%/AUTHORS
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING.LESSER
+%%PORTDOCS%%usr/%%DOCSDIR%%/NEWS
+%%PORTDOCS%%usr/%%DOCSDIR%%/README
+%%PORTDOCS%%usr/%%DOCSDIR%%/THANKS
+usr/share/locale/cs/LC_MESSAGES/gnutls.mo
+usr/share/locale/de/LC_MESSAGES/gnutls.mo
+usr/share/locale/en@boldquot/LC_MESSAGES/gnutls.mo
+usr/share/locale/en@quot/LC_MESSAGES/gnutls.mo
+usr/share/locale/eo/LC_MESSAGES/gnutls.mo
+usr/share/locale/fi/LC_MESSAGES/gnutls.mo
+usr/share/locale/fr/LC_MESSAGES/gnutls.mo
+usr/share/locale/it/LC_MESSAGES/gnutls.mo
+usr/share/locale/ms/LC_MESSAGES/gnutls.mo
+usr/share/locale/nl/LC_MESSAGES/gnutls.mo
+usr/share/locale/pl/LC_MESSAGES/gnutls.mo
+usr/share/locale/sv/LC_MESSAGES/gnutls.mo
+usr/share/locale/uk/LC_MESSAGES/gnutls.mo
+usr/share/locale/vi/LC_MESSAGES/gnutls.mo
+usr/share/locale/zh_CN/LC_MESSAGES/gnutls.mo
+@dirrmtry usr/lib
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
+@dirrmtry usr/share/doc
+@dirrmtry usr/share/locale/cs/LC_MESSAGES
+@dirrmtry usr/share/locale/cs
+@dirrmtry usr/share/locale/de/LC_MESSAGES
+@dirrmtry usr/share/locale/de
+@dirrmtry usr/share/locale/en@boldquot/LC_MESSAGES
+@dirrmtry usr/share/locale/en@boldquot
+@dirrmtry usr/share/locale/en@quot/LC_MESSAGES
+@dirrmtry usr/share/locale/en@quot
+@dirrmtry usr/share/locale/eo/LC_MESSAGES
+@dirrmtry usr/share/locale/eo
+@dirrmtry usr/share/locale/fi/LC_MESSAGES
+@dirrmtry usr/share/locale/fi
+@dirrmtry usr/share/locale/fr/LC_MESSAGES
+@dirrmtry usr/share/locale/fr
+@dirrmtry usr/share/locale/it/LC_MESSAGES
+@dirrmtry usr/share/locale/it
+@dirrmtry usr/share/locale/ms/LC_MESSAGES
+@dirrmtry usr/share/locale/ms
+@dirrmtry usr/share/locale/nl/LC_MESSAGES
+@dirrmtry usr/share/locale/nl
+@dirrmtry usr/share/locale/pl/LC_MESSAGES
+@dirrmtry usr/share/locale/pl
+@dirrmtry usr/share/locale/sv/LC_MESSAGES
+@dirrmtry usr/share/locale/sv
+@dirrmtry usr/share/locale/uk/LC_MESSAGES
+@dirrmtry usr/share/locale/uk
+@dirrmtry usr/share/locale/vi/LC_MESSAGES
+@dirrmtry usr/share/locale/vi
+@dirrmtry usr/share/locale/zh_CN/LC_MESSAGES
+@dirrmtry usr/share/locale/zh_CN
+@dirrmtry usr/share/locale
+@dirrmtry usr/share
+@dirrmtry usr
