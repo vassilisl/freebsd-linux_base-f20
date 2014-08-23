@@ -1,0 +1,8 @@
+The cracklib-dicts package includes the CrackLib dictionaries.
+CrackLib will need to use the dictionary appropriate to your system,
+which is normally put in /usr/share/dict/words. Cracklib-dicts also
+contains the utilities necessary for the creation of new dictionaries.
+
+If you are installing CrackLib, you should also install cracklib-dicts.
+
+Brought in from Fedora 20.

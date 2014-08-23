@@ -1,0 +1,16 @@
+usr/lib/cracklib_dict.hwm
+usr/lib/cracklib_dict.pwd
+usr/lib/cracklib_dict.pwi
+usr/sbin/mkdict
+usr/sbin/packer
+usr/share/cracklib/cracklib-small.hwm
+usr/share/cracklib/cracklib-small.pwd
+usr/share/cracklib/cracklib-small.pwi
+usr/share/cracklib/pw_dict.hwm
+usr/share/cracklib/pw_dict.pwd
+usr/share/cracklib/pw_dict.pwi
+@dirrmtry usr/lib
+@dirrmtry usr/sbin
+@dirrmtry usr/share/cracklib
+@dirrmtry usr/share
+@dirrmtry usr

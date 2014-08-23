@@ -1,0 +1,18 @@
+CrackLib tests passwords to determine whether they match certain
+security-oriented characteristics, with the purpose of stopping users
+from choosing passwords that are easy to guess. CrackLib performs
+several tests on passwords: it tries to generate words from a username
+and gecos entry and checks those words against the password; it checks
+for simplistic patterns in passwords; and it checks for the password
+in a dictionary.
+
+CrackLib is actually a library containing a particular C function
+which is used to check the password, as well as other C
+functions. CrackLib is not a replacement for a passwd program; it must
+be used in conjunction with an existing passwd program.
+
+Install the cracklib package if you need a program to check users'
+passwords to see if they are at least minimally secure. If you install
+CrackLib, you will also want to install the cracklib-dicts package.
+
+Brought in from Fedora 20.
