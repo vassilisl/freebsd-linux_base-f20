@@ -25,6 +25,7 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/usr/lib/libXau.so.6:${PORTSDIR}/x11/linux-f20-xorg-libs
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
