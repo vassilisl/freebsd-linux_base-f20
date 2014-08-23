@@ -1,0 +1,5 @@
+usr/lib/libpciaccess.so.0
+usr/lib/libpciaccess.so.0.11.1
+%%PORTDOCS%%usr/%%DOCSDIR%%/AUTHORS
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
