@@ -21,6 +21,10 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/usr/lib/liblzma.so.5:${PORTSDIR}/archivers/linux-f20-xz-libs \
+					/compat/linux/lib/libdbus-1.so.3:${PORTSDIR}/devel/linux-f20-dbus-libs \
+					/compat/linux/lib/libgpg-error.so.0:${PORTSDIR}/security/linux-f20-libgpg-error \
+					/compat/linux/lib/libpam.so.0:${PORTSDIR}/security/linux-f20-pam
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
