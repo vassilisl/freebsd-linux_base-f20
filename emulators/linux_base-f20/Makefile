@@ -34,6 +34,7 @@ BIN_DISTFILES=	\
 				g/glibc-common-2.18-11.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 				g/grep-2.15-1.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 				h/hostname-3.13-2.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
+				h/hwdata-0.256-1.fc${LINUX_RPM_VERSION}.noarch.rpm \
 				i/info-5.1-4.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 				k/keyutils-libs-1.5.8-1.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 				k/krb5-libs-1.11.3-33.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \

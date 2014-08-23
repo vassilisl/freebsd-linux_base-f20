@@ -698,6 +698,7 @@ usr/lib/libuuid.so.1.3.0
 usr/lib/libz.so.1
 usr/lib/libz.so.1.2.8
 usr/lib/locale/locale-archive.tmpl
+usr/lib/modprobe.d/dist-blacklist.conf
 usr/lib/rtkaio/i686/nosegneg/librt.so.1
 usr/lib/rtkaio/i686/nosegneg/librtkaio-%%GLIBCVER%%.so
 usr/lib/rtkaio/librt.so.1
@@ -866,6 +867,8 @@ usr/share/doc/grep/README
 usr/share/doc/grep/THANKS
 usr/share/doc/grep/TODO
 usr/share/doc/hostname/COPYRIGHT
+usr/share/doc/hwdata/COPYING
+usr/share/doc/hwdata/LICENSE
 usr/share/doc/info/COPYING
 usr/share/doc/keyutils-libs/LICENCE.LGPL
 usr/share/doc/krb5-libs/LICENSE
@@ -951,6 +954,10 @@ usr/share/gcc-4.8.2/python/libstdcxx/v6/printers.pyo
 usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.18-gdb.py
 usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.18-gdb.pyc
 usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.18-gdb.pyo
+usr/share/hwdata/oui.txt
+usr/share/hwdata/pci.ids
+usr/share/hwdata/pnp.ids
+usr/share/hwdata/usb.ids
 usr/share/i18n/charmaps/ANSI_X3.110-1983.gz
 usr/share/i18n/charmaps/ANSI_X3.4-1968.gz
 usr/share/i18n/charmaps/ARMSCII-8.gz
@@ -2169,6 +2176,7 @@ var/yp/nicknames
 @dirrmtry usr/lib/krb5/plugins
 @dirrmtry usr/lib/krb5
 @dirrmtry usr/lib/locale
+@dirrmtry usr/lib/modprobe.d
 @dirrmtry usr/lib/pm-utils/module.d
 @dirrmtry usr/lib/pm-utils/power.d
 @dirrmtry usr/lib/pm-utils/sleep.d
@@ -2217,6 +2225,7 @@ var/yp/nicknames
 @dirrmtry usr/share/doc/glibc-common
 @dirrmtry usr/share/doc/grep
 @dirrmtry usr/share/doc/hostname
+@dirrmtry usr/share/doc/hwdata
 @dirrmtry usr/share/doc/info
 @dirrmtry usr/share/doc/keyutils-libs
 @dirrmtry usr/share/doc/krb5-libs/examples
@@ -2253,6 +2262,7 @@ var/yp/nicknames
 @dirrmtry usr/share/glib-2.0/schemas
 @dirrmtry usr/share/glib-2.0
 @dirrmtry usr/share/gnome
+@dirrmtry usr/share/hwdata
 @dirrmtry usr/share/i18n/charmaps
 @dirrmtry usr/share/i18n/locales
 @dirrmtry usr/share/i18n
