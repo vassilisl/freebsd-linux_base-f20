@@ -1,0 +1,11 @@
+usr/lib/libtasn1.so.6
+usr/lib/libtasn1.so.6.1.1
+%%PORTDOCS%%usr/%%DOCSDIR%%/AUTHORS
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING.LIB
+%%PORTDOCS%%usr/%%DOCSDIR%%/NEWS
+%%PORTDOCS%%usr/%%DOCSDIR%%/README
+%%PORTDOCS%%usr/%%DOCSDIR%%/THANKS
+%%PORTDOCS%%usr/%%DOCSDIR%%/TODO
+%%PORTDOCS%%usr/%%DOCSDIR%%/libtasn1.pdf
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
