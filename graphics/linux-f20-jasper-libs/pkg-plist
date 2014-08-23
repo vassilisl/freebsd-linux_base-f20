@@ -1,0 +1,7 @@
+usr/lib/libjasper.so.1
+usr/lib/libjasper.so.1.0.0
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYRIGHT
+%%PORTDOCS%%usr/%%DOCSDIR%%/LICENSE
+%%PORTDOCS%%usr/%%DOCSDIR%%/NEWS
+%%PORTDOCS%%usr/%%DOCSDIR%%/README
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
