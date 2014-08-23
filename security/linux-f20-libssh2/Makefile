@@ -1,4 +1,4 @@
-# Created by: Vassilis
+# Created by: vassilis
 # $FreeBSD$
 
 PORTNAME=	libssh2
