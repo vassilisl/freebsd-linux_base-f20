@@ -21,6 +21,10 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/usr/lib/libjasper.so.1:${PORTSDIR}/graphics/linux-f20-jasper-libs \
+					/compat/linux/usr/lib/libpng16.so.16:${PORTSDIR}/graphics/linux-f20-libpng \
+					/compat/linux/usr/lib/libtiff.so.5:${PORTSDIR}/graphics/linux-f20-libtiff \
+					/compat/linux/usr/share/mime/packages/freedesktop.org.xml:${PORTSDIR}/misc/linux-f20-shared-mime-info
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
