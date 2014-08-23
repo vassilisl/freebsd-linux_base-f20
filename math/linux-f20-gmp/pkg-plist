@@ -1,0 +1,13 @@
+usr/lib/libgmp.so.10
+usr/lib/libgmp.so.10.1.2
+usr/lib/libgmpxx.so.4
+usr/lib/libgmpxx.so.4.3.2
+usr/lib/sse2/libgmp.so.10
+usr/lib/sse2/libgmp.so.10.1.2
+usr/lib/sse2/libgmpxx.so.4
+usr/lib/sse2/libgmpxx.so.4.3.2
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING.LIB
+%%PORTDOCS%%usr/%%DOCSDIR%%/NEWS
+%%PORTDOCS%%usr/%%DOCSDIR%%/README
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
