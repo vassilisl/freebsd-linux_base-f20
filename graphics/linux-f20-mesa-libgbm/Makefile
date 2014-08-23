@@ -21,6 +21,11 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/usr/lib/libdrm.so.2:${PORTSDIR}/graphics/linux-f20-libdrm \
+					/compat/linux/usr/lib/libglapi.so.0:${PORTSDIR}/graphics/linux-f20-mesa-libglapi \
+					/compat/linux/usr/lib/libudev.so.1:${POR|TSDIR}/devel/linux-f20-systemd-libs \
+					/compat/linux/usr/lib/libwayland-client.so.0:${PORTSDIR}/x11/linux-f20-libwayland-client \
+					/compat/linux/usr/lib/libwayland-server.so.0:${PORTSDIR}/x11/linux-f20-libwayland-server
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
