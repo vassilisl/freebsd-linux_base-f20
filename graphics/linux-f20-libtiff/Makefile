@@ -21,6 +21,8 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/usr/lib/libjpeg.so.62:${PORTSDIR}/graphics/linux-f20-libjpeg-turbo \
+					/compat/linux/usr/lib/libjbig.so.2.0:${PORTSDIR}/graphics/linux-f20-jbigkit-libs
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
