@@ -18,7 +18,6 @@ BIN_DISTFILES=	\
 # This probably should be in the USE_LINUX_APPS; waiting for modular support of linux_base
 # of the user's choice in /usr/ports/Mk/bsd.linux-apps.mk
 DISTFILES_DEPS=	\
-			l/libxml2-2.9.1-2.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm
 
 ONLY_FOR_ARCHS=	i386 amd64
 LINUX_CPU_ARCH=		i386
@@ -28,6 +27,8 @@ USE_LINUX_PREFIX=	yes
 USE_LINUX=			f20
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/usr/lib/libgcrypt.so.11:${PORTSDIR}/security/linux-f20-libgcrypt \
+					/compat/linux/usr/lib/libxml2.so.2:${PORTSDIR}/security/linux-f20-libxml2
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
