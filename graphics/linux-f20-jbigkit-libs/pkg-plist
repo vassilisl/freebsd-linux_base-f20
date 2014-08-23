@@ -1,0 +1,7 @@
+usr/lib/libjbig.so.2.0
+usr/lib/libjbig85.so.2.0
+%%PORTDOCS%%usr/%%DOCSDIR%%/ANNOUNCE
+%%PORTDOCS%%usr/%%DOCSDIR%%/CHANGES
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING
+%%PORTDOCS%%usr/%%DOCSDIR%%/TODO
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%

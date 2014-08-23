@@ -1,0 +1,7 @@
+JBIG-KIT provides a portable library of compression and decompression
+functions with a documented interface that you can include very easily
+into your image or document processing software. In addition, JBIG-KIT
+provides ready-to-use compression and decompression programs with a
+simple command line interface (similar to the converters found in netpbm).
+
+Brought in from Fedora 20
