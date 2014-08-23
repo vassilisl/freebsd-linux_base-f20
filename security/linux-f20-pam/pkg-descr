@@ -1,0 +1,5 @@
+PAM (Pluggable Authentication Modules) is a system security tool that
+allows system administrators to set authentication policy without
+having to recompile programs that handle authentication.
+
+Brought in from Fedora 20.
