@@ -22,6 +22,8 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/usr/lib/libnss3.so:${PORTSDIR}/security/linux-f20-nss \
+					/compat/linux/usr/lib/libsasl2.so.3:${PORTSDIR}/security/linux-f20-cyrus-sasl-lib
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
