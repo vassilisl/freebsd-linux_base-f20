@@ -1,0 +1,32 @@
+usr/bin/update-mime-database
+usr/share/applications/defaults.list
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING
+%%PORTDOCS%%usr/%%DOCSDIR%%/HACKING
+%%PORTDOCS%%usr/%%DOCSDIR%%/NEWS
+%%PORTDOCS%%usr/%%DOCSDIR%%/README
+%%PORTDOCS%%usr/%%DOCSDIR%%/shared-mime-info-spec.xml
+usr/share/man/man1/update-mime-database.1.gz
+usr/share/mime/packages/freedesktop.org.xml
+usr/share/pkgconfig/shared-mime-info.pc
+@dirrmtry usr/bin
+@dirrmtry usr/share/applications
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
+@dirrmtry usr/share/doc
+@dirrmtry usr/share/man/man1
+@dirrmtry usr/share/man
+@dirrmtry usr/share/mime/application
+@dirrmtry usr/share/mime/audio
+@dirrmtry usr/share/mime/image
+@dirrmtry usr/share/mime/inode
+@dirrmtry usr/share/mime/message
+@dirrmtry usr/share/mime/model
+@dirrmtry usr/share/mime/multipart
+@dirrmtry usr/share/mime/packages
+@dirrmtry usr/share/mime/text
+@dirrmtry usr/share/mime/video
+@dirrmtry usr/share/mime/x-content
+@dirrmtry usr/share/mime/x-epoc
+@dirrmtry usr/share/mime
+@dirrmtry usr/share/pkgconfig
+@dirrmtry usr/share
+@dirrmtry usr
