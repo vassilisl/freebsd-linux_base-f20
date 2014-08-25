@@ -1,0 +1,9 @@
+usr/lib/libthai.so.0
+usr/lib/libthai.so.0.2.0
+%%PORTDOCS%%usr/%%DOCSDIR%%/AUTHORS
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING
+%%PORTDOCS%%usr/%%DOCSDIR%%/ChangeLog
+%%PORTDOCS%%usr/%%DOCSDIR%%/README
+usr/%%DATADIR%%/thbrk.tri
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
+@dirrmtry usr/%%DATADIR%%
