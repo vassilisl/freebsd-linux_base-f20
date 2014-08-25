@@ -29,6 +29,12 @@ USE_LINUX_PREFIX=	yes
 USE_LINUX=			f20
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/usr/bin/update-ca-trust:${PORTSDIR}/security/linux-f20-ca-certificates \
+					/compat/linux/lib/libdbus-1.so.3:${PORTSDIR}/devel/linux-f20-dbus-libs \
+					/compat/linux/usr/lib/libcrypto.so.10:${PORTSDIR}/security/linux-f20-openssl-libs \
+					/compat/linux/usr/lib/libsqlite3.so.0:${PORTDIR}/databases/linux-f20-sqlite3 \
+					/compat/linux/usr/lib/libssl.so.10:${PORTSDIR}/security/linux-f20-openssl-libs \
+					/compat/linux/usr/lib/libGL.so.1:${PORTSDIR}/graphics/linux-f20-mesa-libGL
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
