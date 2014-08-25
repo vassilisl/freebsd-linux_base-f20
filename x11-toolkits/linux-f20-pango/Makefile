@@ -22,6 +22,10 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/usr/lib/libX11.so.6:${PORTSDIR}/x11/linux-f20-xorg-libs \
+					/compat/linux/usr/lib/libcairo.so.2:${PORTSDIR}/graphics/linux-f20-cairo \
+					/compat/linux/usr/lib/libharfbuzz.so.0:${PORTSDIR}/print/linux-f20-harfbuzz \
+					/compat/linux/usr/lib/libthai.so.0:${PORTSDIR}/devel/linux-f20-libthai
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
