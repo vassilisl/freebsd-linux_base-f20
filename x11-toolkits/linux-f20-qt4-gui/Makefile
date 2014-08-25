@@ -27,6 +27,11 @@ USE_LINUX_PREFIX=	yes
 USE_LINUX=			f20
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/lib/libasound.so.2:${PORTSDIR}/audio/linux-f20-alsa-lib \
+					/compat/linux/usr/lib/libjpeg.so.62:${PORTSDIR}/graphics/linux-f20-libjpeg-turbo \
+					/compat/linux/usr/lib/libpng16.so.16:${PORTSDIR}/graphics/linux-f20-libpng \
+					/compat/linux/usr/lib/libtiff.so.5:${PORTSDIR}/graphics/linux-f20-libtiff \
+					/compat/linux/usr/lib/libQtCore.so.4:${PORTSDIR}/x11-toolkits/linux-f20-qt4
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
