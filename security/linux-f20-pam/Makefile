@@ -23,7 +23,8 @@ USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 RUN_DEPENDS=		/compat/linux/usr/lib/libcrack.so.2:${PORTSDIR}/security/linux-f20-cracklib-dicts \
-					/compat/linux/usr/lib/libaudit.so.1:${PORTSDIR}/security/linux-f20-audit-libs
+					/compat/linux/usr/lib/libaudit.so.1:${PORTSDIR}/security/linux-f20-audit-libs \
+					/compat/linux/usr/lib/libdb-5.3.so:${PORTSDIR}/databases/linux-f20-libdb
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
