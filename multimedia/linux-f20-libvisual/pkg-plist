@@ -1,0 +1,11 @@
+usr/lib/libvisual-0.4.so.0
+usr/lib/libvisual-0.4.so.0.0.0
+%%PORTDOCS%%usr/%%DOCSDIR%%/AUTHORS
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING
+%%PORTDOCS%%usr/%%DOCSDIR%%/ChangeLog
+%%PORTDOCS%%usr/%%DOCSDIR%%/NEWS
+%%PORTDOCS%%usr/%%DOCSDIR%%/README
+%%PORTDOCS%%usr/%%DOCSDIR%%/TODO
+usr/share/locale/es_AR/LC_MESSAGES/libvisual-0.4.mo
+usr/share/locale/es_ES/LC_MESSAGES/libvisual-0.4.mo
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
