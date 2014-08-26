@@ -26,6 +26,8 @@ RUN_DEPENDS=		/compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_base-f20 \
 					/compat/linux/usr/lib/libavahi-client.so.3:${PORTSDIR}/net/linux-f20-avahi-libs \
 					/compat/linux/usr/lib/libssl.so.10:${PORTSDIR}/security/linux-f20-openssl-libs
 
+CONFLICTS=			linux-f10-cups-libs-[0-9]*
+
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
 EXTRACT_AFTER_ARGS?=

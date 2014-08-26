@@ -24,7 +24,7 @@ NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 RUN_DEPENDS=		/compat/linux/usr/lib/libcrypto.so.10:${PORTSDIR}/security/linux-f20-openssl-libs
 
-CONFLICTS=		linux-f10-openssl-[0-9]* 
+CONFLICTS=			linux-f10-libssh2-[0-9]*
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf

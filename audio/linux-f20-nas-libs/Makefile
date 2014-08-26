@@ -16,7 +16,7 @@ COMMENT=	Network Audio System libraries (Linux Fedora 20)
 BIN_DISTFILES=	\
 				n/nas-libs-1.9.4-1.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm
 
-CONFLICTS=	linux-nas-libs-[0-9]* linux-f8-nas-libs-[0-9]* linux-f10-nas-libs-[0-9]*
+CONFLICTS=	linux-f10-nas-libs-[0-9]*
 
 ONLY_FOR_ARCHS=	i386 amd64
 LINUX_CPU_ARCH=		i386

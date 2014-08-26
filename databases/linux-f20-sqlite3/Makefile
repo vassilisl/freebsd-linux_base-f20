@@ -19,7 +19,7 @@ BIN_DISTFILES=	\
 # of the user's choice in /usr/ports/Mk/bsd.linux-apps.mk
 DISTFILES_DEPS=	\
 
-CONFLICTS=	linux-f8-sqlite3-[0-9]* linux-f10-sqlite3-[0-9]*
+CONFLICTS=	linux-f10-sqlite3-[0-9]*
 
 ONLY_FOR_ARCHS=	i386 amd64
 LINUX_CPU_ARCH=		i386

@@ -25,6 +25,8 @@ DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 RUN_DEPENDS=		/compat/linux/usr/lib/libnss3.so:${PORTSDIR}/security/linux-f20-nss \
 					/compat/linux/usr/lib/libsasl2.so.3:${PORTSDIR}/security/linux-f20-cyrus-sasl-lib
 
+CONFLICTS=			linux-f10-openldap-[0-9]*
+
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
 EXTRACT_AFTER_ARGS?=

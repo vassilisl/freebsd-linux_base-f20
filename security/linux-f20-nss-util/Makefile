@@ -1,4 +1,4 @@
-# Created by: Vassilis
+# Created by: vassilis
 # $FreeBSD$
 
 PORTNAME=	nss-util
@@ -24,7 +24,7 @@ NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 RUN_DEPENDS=		/compat/linux/usr/lib/libplc4.so:${PORTSDIR}/devel/linux-f20-nspr4
 
-CONFLICTS=		linux-f10-openssl-[0-9]* 
+CONFLICTS=		linux-f20-nss-[0-9]*
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf

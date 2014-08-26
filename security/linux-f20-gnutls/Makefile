@@ -25,6 +25,8 @@ DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 RUN_DEPENDS=		/compat/linux/usr/lib/libtasn1.so.6:${PORTSDIR}/security/linux-f20-libtasn1 \
 					/compat/linux/usr/lib/libnettle.so.4:${PORTSDIR}/security/linux-f20-nettle
 
+CONFLICTS=			linux-f10-gnutls-[0-9]*
+
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
 EXTRACT_AFTER_ARGS?=

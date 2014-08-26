@@ -25,6 +25,8 @@ RUN_DEPENDS=		/compat/linux/usr/lib/libEGL.so.1:${PORTSDIR}/graphics/linux-f20-m
 					/compat/linux/usr/lib/libGL.so.1:${PORTSDIR}/graphics/linux-f20-mesa-libGL \
 					/compat/linux/usr/lib/libpixman-1.so.0:${PORTSDIR}/x11/linux-f20-pixman
 
+CONFLICTS=			linux-f10-cairo-[0-9]*
+
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
 EXTRACT_AFTER_ARGS?=

@@ -25,6 +25,8 @@ NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 RUN_DEPENDS=		/compat/linux/usr/lib/libogg.so.0:${PORTSDIR}/audio/linux-f20-libogg
 
+CONFLICTS=			linux-f10-libvorbis-[0-9]*
+
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
 EXTRACT_AFTER_ARGS?=

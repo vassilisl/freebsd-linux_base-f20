@@ -26,6 +26,8 @@ RUN_DEPENDS=		/compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_base-f20 \
 					/compat/linux/usr/lib/libjpeg.so.62:${PORTSDIR}/graphics/linux-f20-libjpeg-turbo \
 					/compat/linux/usr/lib/liblcms.so.1:${PORTSDIR}/graphics/linux-f20-lcms-libs
 
+CONFLICTS=			linux-f10-libmng-[0-9]*
+
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
 EXTRACT_AFTER_ARGS?=

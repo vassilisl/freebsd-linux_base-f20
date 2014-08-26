@@ -11,6 +11,8 @@ DISTFILES=	${BIN_DISTFILES}
 MAINTAINER=	vassilis@einval.com
 COMMENT=	RPM of Wayland server library (Linux Fedora 20)
 
+RUN_DEPENDS=        /compat/linux/usr/lib/libffi.so.6:{PORTSDIR}/devel/linux-f20-libffi
+
 BIN_DISTFILES=	\
 			l/libwayland-server-1.2.0-3.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm
 
@@ -21,7 +23,6 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
-RUN_DEPENDS=        /compat/linux/usr/lib/libffi.so.6:{PORTSDIR}/devel/linux-f20-libffi
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf

@@ -25,6 +25,8 @@ DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 RUN_DEPENDS=		/compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_base-f20 \
 					/compat/linux/usr/lib/libgpg-error.so.0:${PORTSDIR}/security/linux-f20-libgpg-error
 
+CONFLICTS=			linux-f10-libgcrypt-[0-9]*
+
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
 EXTRACT_AFTER_ARGS?=

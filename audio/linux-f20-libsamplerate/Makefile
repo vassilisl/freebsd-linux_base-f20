@@ -13,6 +13,8 @@ EXTRACT_ONLY=		${BIN_DISTFILES}
 MAINTAINER=	vassilis@einval.com
 COMMENT=	Sample rate conversion library for audio data (Linux Fedora 20)
 
+RUN_DEPENDS=		/compat/linux/usr/lib/libsndfile.so.1:${PORTSDIR}/audio/linux-f20-libsndfile
+
 BIN_DISTFILES=	\
 			l/libsamplerate-0.1.8-5.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm
 
@@ -23,7 +25,6 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
-RUN_DEPENDS=		/compat/linux/usr/lib/libsndfile.so.1:${PORTSDIR}/audio/linux-f20-libsndfile
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf

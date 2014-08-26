@@ -11,6 +11,11 @@ DISTFILES=	${BIN_DISTFILES}
 MAINTAINER=	vassilis@einval.com
 COMMENT=	Library for reading and writing sound files (Linux Fedora 20)
 
+RUN_DEPENDS=		/compat/linux/usr/lib/libFLAC.so.8:${PORTSDIR}/audio/linux-f20-flac-libs \
+					/compat/linux/usr/lib/libgsm.so.1:${PORTSDIR}/audio/linux-f20-libgsm \
+					/compat/linux/usr/lib/libogg.so.0:${PORTSDIR}/audio/linux-f20-libogg \
+					/compat/linux/usr/lib/libvorbis.so.0:${PORTSDIR}/audio/linux-f20-libvorbis
+
 BIN_DISTFILES=	\
 			l/libsndfile-1.0.25-8.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm
 
@@ -22,10 +27,8 @@ USE_LINUX_PREFIX=	yes
 USE_LINUX=			f20
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
-RUN_DEPENDS=		/compat/linux/usr/lib/libFLAC.so.8:${PORTSDIR}/audio/linux-f20-flac-libs \
-					/compat/linux/usr/lib/libgsm.so.1:${PORTSDIR}/audio/linux-f20-libgsm \
-					/compat/linux/usr/lib/libogg.so.0:${PORTSDIR}/audio/linux-f20-libogg \
-					/compat/linux/usr/lib/libvorbis.so.0:${PORTSDIR}/audio/linux-f20-libvorbis
+
+CONFLICTS=			linux-f10-libsndfile-[0-9]*
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf

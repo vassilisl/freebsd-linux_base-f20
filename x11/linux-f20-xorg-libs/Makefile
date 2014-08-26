@@ -12,6 +12,9 @@ EXTRACT_ONLY=		${DISTFILES} ${DISTFILES_DEPS}
 MAINTAINER=		vassilis@einval.com
 COMMENT=		Xorg libraries (Linux Fedora 20)
 
+RUN_DEPENDS=		/compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_base-fc20 \
+					/compat/linux/usr/lib/libfontconfig.so.1:${PORTSDIR}/x11-fonts/linux-f20-fontconfig
+
 BIN_DISTFILES=	\
 		l/libICE-1.0.8-6.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 		l/libFS-1.0.5-2.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
@@ -69,8 +72,6 @@ USE_LINUX_PREFIX=	yes
 USE_LINUX=			f20
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
-RUN_DEPENDS=		/compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_base-fc20 \
-					/compat/linux/usr/lib/libfontconfig.so.1:${PORTSDIR}/x11-fonts/linux-f20-fontconfig
 
 CONFLICTS=		linux-xorg-libs-[0-9]* linux-f8-xorg-libs-[0-9]* linux-f10-xorg-libs-[0-9]*
 
