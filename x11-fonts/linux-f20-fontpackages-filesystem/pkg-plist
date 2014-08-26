@@ -1,0 +1,5 @@
+@dirrmtry etc/fonts/conf.d
+@dirrmtry etc/fonts
+@dirrmtry usr/share/fontconfig/conf.avail
+@dirrmtry usr/share/fontconfig
+@dirrmtry usr/share/fonts
