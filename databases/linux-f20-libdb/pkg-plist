@@ -1,0 +1,6 @@
+usr/lib/libdb-5.3.so
+usr/lib/libdb-5.so
+%%PORTDOCS%%usr/%%DOCSDIR%%/LICENSE
+%%PORTDOCS%%usr/%%DOCSDIR%%/README
+%%PORTDOCS%%usr/%%DOCSDIR%%/lgpl-2.1.txt
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%
