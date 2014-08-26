@@ -1,0 +1,5 @@
+Fontconfig is designed to locate fonts within the
+system and select them according to requirements specified by
+applications.
+
+From Fedora 20.
