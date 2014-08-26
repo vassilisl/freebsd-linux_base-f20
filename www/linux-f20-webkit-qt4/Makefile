@@ -27,6 +27,9 @@ USE_LINUX_PREFIX=	yes
 USE_LINUX=			f20
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/usr/lib/libQtSensors.so.1:${PORTSDIR}/x11-toolkits/linux-f20-qt-mobility \
+					/compat/linux/usr/lib/libgstapp-0.10.so.0:${PORTSDIR}/multimedia/linux-f20-gstreamer-plugins-base \
+					/compat/linux/usr/lib/libwebp.so.4:${PORTSDIR}/graphics/linux-f20-libwebp \
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
