@@ -57,12 +57,9 @@ BIN_DISTFILES=	\
 		l/libxkbcommon-0.3.1-1.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 		l/libxkbfile-1.0.8-4.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm
 
-		# m/mesa-libGLw-8.0.0-3.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
-
 # This probably should be in the USE_LINUX_APPS; waiting for modular support of linux_base
 # of the user's choice in /usr/ports/Mk/bsd.linux-apps.mk
-DISTFILES_DEPS=	\
-		f/fontconfig-2.11.0-1.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm
+DISTFILES_DEPS=
 
 ONLY_FOR_ARCHS=	i386 amd64
 LINUX_CPU_ARCH=		i386
@@ -72,7 +69,8 @@ USE_LINUX_PREFIX=	yes
 USE_LINUX=			f20
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
-RUN_DEPENDS=		/compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_base-fc20
+RUN_DEPENDS=		/compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_base-fc20 \
+					/compat/linux/usr/lib/libfontconfig.so.1:${PORTSDIR}/x11-fonts/linux-f20-fontconfig
 
 CONFLICTS=		linux-xorg-libs-[0-9]* linux-f8-xorg-libs-[0-9]* linux-f10-xorg-libs-[0-9]*
 
@@ -87,7 +85,6 @@ do-install:
 	@cd ${WRKSRC} && ${FIND} * ! -path "stage/*" ! -type d \
 		| ${CPIO} -pm -R root:wheel ${STAGEDIR}${PREFIX}
 
-#USE_LINUX_APPS=		fontconfig
 USE_LDCONFIG=		yes
 
 post-install:
