@@ -23,7 +23,7 @@ NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 RUN_DEPENDS=		/compat/linux/usr/lib/libX11.so.6:${PORTSDIR}/x11/linux-f20-xorg-libs \
 					/compat/linux/usr/lib/libudev.so.1:${PORTSDIR}/devel/linux-f20-systemd-libs \
-					/compat/linux/usr/lib/libgbm.so.1:${PORTSDIR}/grahpcs/linux-f20-mesa-libgbm
+					/compat/linux/usr/lib/libgbm.so.1:${PORTSDIR}/graphics/linux-f20-mesa-libgbm
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
