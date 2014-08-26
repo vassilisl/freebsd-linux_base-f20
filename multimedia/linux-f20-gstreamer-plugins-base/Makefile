@@ -28,6 +28,7 @@ USE_LINUX=			f20
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 RUN_DEPENDS=		/compat/linux/usr/lib/libgstreamer-0.10.so.0:${PORTSDIR}/multimedia/linux-f20-gstreamer \
+					/compat/linux/usr/lib/libvisual-0.4.so.0:${PORTSDIR}/multimedia/linux-f20-libvisual \
 					/compat/linux/usr/lib/libvorbis.so.0:${PORTSDIR}/audio/linux-f20-libvorbis \
 					/compat/linux/usr/lib/libpango-1.0.so.0:${PORTSDIR}/x11-toolkits/linux-f20-pango \
 					/compat/linux/usr/lib/libcairo.so.2:${PORTSDIR}/graphics/linux-f20-cairo \
