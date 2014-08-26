@@ -22,6 +22,13 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
+RUN_DEPENDS=		/compat/linux/usr/lib/libX11.so.6:${PORTSDIR}/x11/linux-f20-xorg-libs \
+					/compat/linux/usr/lib/libatk-1.0.so.0:${PORTSDIR}/accessibility/linux-f20-atk \
+					/compat/linux/usr/lib/libpango-1.0.so.0:${PORTSDIR}/x11-toolkits/linux-f20-pango \
+					/compat/linux/usr/lib/libtiff.so.5:${PORTSDIR}/graphics/linux-f20-libtiff \
+					/compat/linux/usr/lib/libcups.so.2:${PORTSDIR}/print/linux-f20-cups-libs \
+					/compat/linux/usr/lib/libgdk_pixbuf-2.0.so.0:${PORTSDIR}/graphics/linux-f20-gdk-pixbuf2
+
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
