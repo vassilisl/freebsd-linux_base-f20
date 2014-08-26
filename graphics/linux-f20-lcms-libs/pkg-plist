@@ -1,0 +1,6 @@
+usr/lib/liblcms.so.1
+usr/lib/liblcms.so.1.0.19
+%%PORTDOCS%%usr/%%DOCSDIR%%/AUTHORS
+%%PORTDOCS%%usr/%%DOCSDIR%%/COPYING
+%%PORTDOCS%%usr/%%DOCSDIR%%/NEWS
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%

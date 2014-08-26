@@ -1,0 +1,13 @@
+usr/lib/libmng.so.1
+usr/lib/libmng.so.1.0.0
+%%PORTDOCS%%usr/%%DOCSDIR%%/CHANGES
+%%PORTDOCS%%usr/%%DOCSDIR%%/LICENSE
+%%PORTDOCS%%usr/%%DOCSDIR%%/README
+%%PORTDOCS%%usr/%%DOCSDIR%%/README.autoconf
+%%PORTDOCS%%usr/%%DOCSDIR%%/README.config
+%%PORTDOCS%%usr/%%DOCSDIR%%/README.contrib
+%%PORTDOCS%%usr/%%DOCSDIR%%/README.dll
+%%PORTDOCS%%usr/%%DOCSDIR%%/README.examples
+%%PORTDOCS%%usr/%%DOCSDIR%%/README.footprint
+%%PORTDOCS%%usr/%%DOCSDIR%%/README.packaging
+%%PORTDOCS%%@dirrmtry usr/%%DOCSDIR%%

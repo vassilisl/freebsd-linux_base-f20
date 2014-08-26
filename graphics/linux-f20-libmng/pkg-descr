@@ -1,0 +1,6 @@
+LibMNG is a library for accessing graphics in MNG (Multi-image Network
+Graphics) and JNG (JPEG Network Graphics) formats.  MNG graphics are
+basically animated PNGs.  JNG graphics are basically JPEG streams
+integrated into a PNG chunk.
+
+From Fedora 20.
