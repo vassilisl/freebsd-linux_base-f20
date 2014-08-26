@@ -1,5 +1,5 @@
-# Created by: Vassilis based on the f10 port by bsam
-# $FreeBSD:$
+# Created by: vassilis based on the f10 port by bsam
+# $FreeBSD$
 
 PORTNAME=	nas-libs
 PORTVERSION=	1

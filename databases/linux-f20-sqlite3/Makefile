@@ -1,4 +1,4 @@
-# Created by: Vassilis based on the respective port by bsam
+# Created by: vassilis based on the respective port by bsam
 # $FreeBSD:$
 
 PORTNAME=	sqlite3

@@ -1,4 +1,4 @@
-# Created by: Vassilis based on the f10 port by bsam
+# Created by: vassilis based on the f10 port by bsam
 # $FreeBSD:$
 
 PORTNAME=	alsa-lib
