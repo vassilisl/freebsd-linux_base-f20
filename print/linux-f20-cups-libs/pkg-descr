@@ -1,0 +1,8 @@
+CUPS printing system provides a portable printing layer for
+UNIX(R)(C) operating systems. It has been developed by Apple Inc.
+to promote a standard printing solution for all UNIX vendors and users.
+CUPS provides the System V and Berkeley command-line interfaces.
+The cups-libs package provides libraries used by applications to use CUPS
+natively, without needing the lp/lpr commands.
+
+From Fedora 20.
