@@ -24,6 +24,7 @@ DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 RUN_DEPENDS=		/compat/linux/usr/lib/libjasper.so.1:${PORTSDIR}/graphics/linux-f20-jasper-libs \
 					/compat/linux/usr/lib/libpng16.so.16:${PORTSDIR}/graphics/linux-f20-libpng \
 					/compat/linux/usr/lib/libtiff.so.5:${PORTSDIR}/graphics/linux-f20-libtiff \
+					/compat/linux/usr/lib/libjbig.so.2.0:${PORTSDIR}/graphics/linux-f20-jbigkit-libs \
 					/compat/linux/usr/share/mime/packages/freedesktop.org.xml:${PORTSDIR}/misc/linux-f20-shared-mime-info
 
 EXTRACT_CMD?=		${TAR}
