@@ -1,4 +1,4 @@
-# Created by: vassilis based on the F10 by bsam
+# Created by: vassilisl based on the F10 by bsam
 # $FreeBSD$
 
 PORTNAME=	libpng

@@ -1,4 +1,4 @@
-# Created by: vassilis
+# Created by: vassilisl
 # $FreeBSD$
 
 PORTNAME=	libpciaccess

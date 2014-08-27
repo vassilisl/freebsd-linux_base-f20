@@ -1,4 +1,4 @@
-# Created by: vassilis based on f10 from bsam
+# Created by: vassilisl based on f10 from bsam
 # $FreeBSD$
 
 PORTNAME=	xorg-libs

@@ -1,4 +1,4 @@
-# Created by: vassilis based on f10 bsam
+# Created by: vassilisl based on f10 bsam
 # $FreeBSD:$
 
 PORTNAME=	dbus-libs
