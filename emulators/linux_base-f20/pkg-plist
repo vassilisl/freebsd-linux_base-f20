@@ -1,7 +1,4 @@
-bin/egrep
-bin/fgrep
-bin/grep
-bin/setserial
+bin
 etc/DIR_COLORS
 etc/DIR_COLORS.256color
 etc/DIR_COLORS.lightbgcolor
@@ -78,75 +75,8 @@ etc/yp.conf
 etc/yum.repos.d/fedora-updates-testing.repo
 etc/yum.repos.d/fedora-updates.repo
 etc/yum.repos.d/fedora.repo
-lib/i686/nosegneg/libc-%%GLIBCVER%%.so
-lib/i686/nosegneg/libc.so.6
-lib/i686/nosegneg/libm-%%GLIBCVER%%.so
-lib/i686/nosegneg/libm.so.6
-lib/i686/nosegneg/libpthread-%%GLIBCVER%%.so
-lib/i686/nosegneg/libpthread.so.0
-lib/i686/nosegneg/librt-%%GLIBCVER%%.so
-lib/i686/nosegneg/librt.so.1
-lib/i686/nosegneg/libthread_db-1.0.so
-lib/i686/nosegneg/libthread_db.so.1
-lib/ld-%%GLIBCVER%%.so
-lib/ld-linux.so.2
-lib/libBrokenLocale-%%GLIBCVER%%.so
-lib/libBrokenLocale.so.1
-lib/libSegFault.so
-lib/libanl-%%GLIBCVER%%.so
-lib/libanl.so.1
-lib/libc-%%GLIBCVER%%.so
-lib/libc.so.6
-lib/libcidn-%%GLIBCVER%%.so
-lib/libcidn.so.1
-lib/libcrypt-%%GLIBCVER%%.so
-lib/libcrypt.so.1
-lib/libdl-%%GLIBCVER%%.so
-lib/libdl.so.2
-lib/libgcc_s-4.8.2-20131017.so.1
-lib/libgcc_s.so.1
-lib/libkeyutils.so.1
-lib/libkeyutils.so.1.5
-lib/libm-%%GLIBCVER%%.so
-lib/libm.so.6
-lib/libnsl-%%GLIBCVER%%.so
-lib/libnsl.so.1
-lib/libnss_compat-%%GLIBCVER%%.so
-lib/libnss_compat.so.2
-lib/libnss_db-%%GLIBCVER%%.so
-lib/libnss_db.so.2
-lib/libnss_dns-%%GLIBCVER%%.so
-lib/libnss_dns.so.2
-lib/libnss_files-%%GLIBCVER%%.so
-lib/libnss_files.so.2
-lib/libnss_hesiod-%%GLIBCVER%%.so
-lib/libnss_hesiod.so.2
-lib/libnss_nis-%%GLIBCVER%%.so
-lib/libnss_nis.so.2
-lib/libnss_nisplus-%%GLIBCVER%%.so
-lib/libnss_nisplus.so.2
-lib/libpopt.so.0
-lib/libpopt.so.0.0.0
-lib/libpthread-%%GLIBCVER%%.so
-lib/libpthread.so.0
-lib/libreadline.so.6
-lib/libreadline.so.6.2
-lib/libresolv-%%GLIBCVER%%.so
-lib/libresolv.so.2
-lib/librt-%%GLIBCVER%%.so
-lib/librt.so.1
-lib/libsepol.so.1
-lib/libthread_db-1.0.so
-lib/libthread_db.so.1
-lib/libutil-%%GLIBCVER%%.so
-lib/libutil.so.1
-lib/rtkaio/i686/nosegneg/librt.so.1
-lib/rtkaio/i686/nosegneg/librtkaio-%%GLIBCVER%%.so
-lib/rtkaio/librt.so.1
-lib/rtkaio/librtkaio-%%GLIBCVER%%.so
-sbin/install-info
-sbin/ldconfig
-sbin/sln
+lib
+sbin
 usr/bin/[
 usr/bin/alias
 usr/bin/arch
@@ -187,8 +117,11 @@ usr/bin/df
 usr/bin/dir
 usr/bin/dircolors
 usr/bin/dirname
+usr/bin/dnsdomainname
+usr/bin/domainname
 usr/bin/du
 usr/bin/echo
+usr/bin/egrep
 usr/bin/env
 usr/bin/eu-addr2line
 usr/bin/eu-ar
@@ -210,6 +143,7 @@ usr/bin/factor
 usr/bin/false
 usr/bin/fc
 usr/bin/fg
+usr/bin/fgrep
 usr/bin/fmt
 usr/bin/fold
 usr/bin/gdbus
@@ -219,10 +153,12 @@ usr/bin/getent
 usr/bin/getopts
 usr/bin/gio-querymodules-32
 usr/bin/glib-compile-schemas
+usr/bin/grep
 usr/bin/groups
 usr/bin/gsettings
 usr/bin/head
 usr/bin/hostid
+usr/bin/hostname
 usr/bin/iconv
 usr/bin/id
 usr/bin/idn
@@ -251,6 +187,7 @@ usr/bin/mknod
 usr/bin/mktemp
 usr/bin/mv
 usr/bin/nice
+usr/bin/nisdomainname
 usr/bin/nl
 usr/bin/nohup
 usr/bin/nproc
@@ -274,6 +211,7 @@ usr/bin/rmdir
 usr/bin/rpcgen
 usr/bin/runcon
 usr/bin/seq
+usr/bin/setserial
 usr/bin/sh
 usr/bin/sha1sum
 usr/bin/sha224sum
@@ -326,6 +264,7 @@ usr/bin/yes
 usr/bin/ypcat
 usr/bin/ypchfn
 usr/bin/ypchsh
+usr/bin/ypdomainname
 usr/bin/ypmatch
 usr/bin/yppasswd
 usr/bin/ypwhich
@@ -584,13 +523,40 @@ usr/lib/gconv/libISOIR165.so
 usr/lib/gconv/libJIS.so
 usr/lib/gconv/libJISX0213.so
 usr/lib/gconv/libKSC.so
+usr/lib/i686/nosegneg/libc-%%GLIBCVER%%.so
+usr/lib/i686/nosegneg/libc.so.6
+usr/lib/i686/nosegneg/libm-%%GLIBCVER%%.so
+usr/lib/i686/nosegneg/libm.so.6
+usr/lib/i686/nosegneg/libpthread-%%GLIBCVER%%.so
+usr/lib/i686/nosegneg/libpthread.so.0
+usr/lib/i686/nosegneg/librt-%%GLIBCVER%%.so
+usr/lib/i686/nosegneg/librt.so.1
+usr/lib/i686/nosegneg/libthread_db-1.0.so
+usr/lib/i686/nosegneg/libthread_db.so.1
 usr/lib/krb5/plugins/kdb/db2.so
+usr/lib/ld-%%GLIBCVER%%.so
+usr/lib/ld-linux.so.2
+usr/lib/libBrokenLocale-%%GLIBCVER%%.so
+usr/lib/libBrokenLocale.so.1
+usr/lib/libSegFault.so
 usr/lib/libacl.so.1
 usr/lib/libacl.so.1.1.0
+usr/lib/libanl-%%GLIBCVER%%.so
+usr/lib/libanl.so.1
 usr/lib/libattr.so.1
 usr/lib/libattr.so.1.1.0
+usr/lib/libc-%%GLIBCVER%%.so
+usr/lib/libc.so.6
 usr/lib/libcap.so.2
 usr/lib/libcap.so.2.22
+usr/lib/libcidn-%%GLIBCVER%%.so
+usr/lib/libcidn.so.1
+usr/lib/libcom_err.so.2
+usr/lib/libcom_err.so.2.1
+usr/lib/libcrypt-%%GLIBCVER%%.so
+usr/lib/libcrypt.so.1
+usr/lib/libdl-%%GLIBCVER%%.so
+usr/lib/libdl.so.2
 usr/lib/libe2p.so.2
 usr/lib/libe2p.so.2.3
 usr/lib/libext2fs.so.2
@@ -605,6 +571,8 @@ usr/lib/libfreetype.so.6
 usr/lib/libfreetype.so.6.10.2
 usr/lib/libgamin-1.so.0
 usr/lib/libgamin-1.so.0.1.10
+usr/lib/libgcc_s-4.8.2-20131017.so.1
+usr/lib/libgcc_s.so.1
 usr/lib/libgdbm.so.4
 usr/lib/libgdbm.so.4.0.0
 usr/lib/libgdbm_compat.so.4
@@ -643,12 +611,16 @@ usr/lib/libkadm5srv_mit.so.8
 usr/lib/libkadm5srv_mit.so.8.0
 usr/lib/libkdb5.so.7
 usr/lib/libkdb5.so.7.0
+usr/lib/libkeyutils.so.1
+usr/lib/libkeyutils.so.1.5
 usr/lib/libkrad.so.0
 usr/lib/libkrad.so.0.0
 usr/lib/libkrb5.so.3
 usr/lib/libkrb5.so.3.3
 usr/lib/libkrb5support.so.0
 usr/lib/libkrb5support.so.0.1
+usr/lib/libm-%%GLIBCVER%%.so
+usr/lib/libm.so.6
 usr/lib/libmemusage.so
 usr/lib/libmenu.so.5
 usr/lib/libmenu.so.5.9
@@ -662,6 +634,22 @@ usr/lib/libncurses.so.5
 usr/lib/libncurses.so.5.9
 usr/lib/libncursesw.so.5
 usr/lib/libncursesw.so.5.9
+usr/lib/libnsl-%%GLIBCVER%%.so
+usr/lib/libnsl.so.1
+usr/lib/libnss_compat-%%GLIBCVER%%.so
+usr/lib/libnss_compat.so.2
+usr/lib/libnss_db-%%GLIBCVER%%.so
+usr/lib/libnss_db.so.2
+usr/lib/libnss_dns-%%GLIBCVER%%.so
+usr/lib/libnss_dns.so.2
+usr/lib/libnss_files-%%GLIBCVER%%.so
+usr/lib/libnss_files.so.2
+usr/lib/libnss_hesiod-%%GLIBCVER%%.so
+usr/lib/libnss_hesiod.so.2
+usr/lib/libnss_nis-%%GLIBCVER%%.so
+usr/lib/libnss_nis.so.2
+usr/lib/libnss_nisplus-%%GLIBCVER%%.so
+usr/lib/libnss_nisplus.so.2
 usr/lib/libpanel.so.5
 usr/lib/libpanel.so.5.9
 usr/lib/libpanelw.so.5
@@ -677,7 +665,18 @@ usr/lib/libpcrecpp.so.0
 usr/lib/libpcrecpp.so.0.0.0
 usr/lib/libpcreposix.so.0
 usr/lib/libpcreposix.so.0.0.2
+usr/lib/libpopt.so.0
+usr/lib/libpopt.so.0.0.0
+usr/lib/libpthread-%%GLIBCVER%%.so
+usr/lib/libpthread.so.0
+usr/lib/libreadline.so.6
+usr/lib/libreadline.so.6.2
+usr/lib/libresolv-%%GLIBCVER%%.so
+usr/lib/libresolv.so.2
+usr/lib/librt-%%GLIBCVER%%.so
+usr/lib/librt.so.1
 usr/lib/libselinux.so.1
+usr/lib/libsepol.so.1
 usr/lib/libslang.so.2
 usr/lib/libslang.so.2.2.4
 usr/lib/libstdc++-3-libc6.2-2-2.10.0.so
@@ -686,15 +685,24 @@ usr/lib/libstdc++.so.5
 usr/lib/libstdc++.so.5.0.7
 usr/lib/libstdc++.so.6
 usr/lib/libstdc++.so.6.0.18
+usr/lib/libthread_db-1.0.so
+usr/lib/libthread_db.so.1
 usr/lib/libtic.so.5
 usr/lib/libtic.so.5.9
 usr/lib/libtinfo.so.5
 usr/lib/libtinfo.so.5.9
+usr/lib/libutil-%%GLIBCVER%%.so
+usr/lib/libutil.so.1
 usr/lib/libuuid.so.1
 usr/lib/libuuid.so.1.3.0
 usr/lib/libz.so.1
 usr/lib/libz.so.1.2.8
 usr/lib/locale/locale-archive.tmpl
+usr/lib/modprobe.d/dist-blacklist.conf
+usr/lib/rtkaio/i686/nosegneg/librt.so.1
+usr/lib/rtkaio/i686/nosegneg/librtkaio-%%GLIBCVER%%.so
+usr/lib/rtkaio/librt.so.1
+usr/lib/rtkaio/librtkaio-%%GLIBCVER%%.so
 usr/lib/security/pam_cap.so
 usr/lib/systemd/system/ypbind.service
 usr/lib/tmpfiles.d/libselinux.conf
@@ -730,6 +738,8 @@ usr/sbin/getpcaps
 usr/sbin/glibc_post_upgrade.i686
 usr/sbin/iconvconfig
 usr/sbin/iconvconfig.i686
+usr/sbin/install-info
+usr/sbin/ldconfig
 usr/sbin/logsave
 usr/sbin/mke2fs
 usr/sbin/mkfs.ext2
@@ -740,6 +750,7 @@ usr/sbin/mklost+found
 usr/sbin/resize2fs
 usr/sbin/sefcontext_compile
 usr/sbin/setcap
+usr/sbin/sln
 usr/sbin/tune2fs
 usr/sbin/ypbind
 usr/sbin/yppoll
@@ -855,6 +866,9 @@ usr/share/doc/grep/NEWS
 usr/share/doc/grep/README
 usr/share/doc/grep/THANKS
 usr/share/doc/grep/TODO
+usr/share/doc/hostname/COPYRIGHT
+usr/share/doc/hwdata/COPYING
+usr/share/doc/hwdata/LICENSE
 usr/share/doc/info/COPYING
 usr/share/doc/keyutils-libs/LICENCE.LGPL
 usr/share/doc/krb5-libs/LICENSE
@@ -865,6 +879,7 @@ usr/share/doc/krb5-libs/examples/krb5.conf
 usr/share/doc/krb5-libs/examples/services.append
 usr/share/doc/libcap/License
 usr/share/doc/libcap/capability.notes
+usr/share/doc/libcom_err/COPYING
 usr/share/doc/libgcc/COPYING
 usr/share/doc/libgcc/COPYING.LIB
 usr/share/doc/libgcc/COPYING.RUNTIME
@@ -939,6 +954,10 @@ usr/share/gcc-4.8.2/python/libstdcxx/v6/printers.pyo
 usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.18-gdb.py
 usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.18-gdb.pyc
 usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.18-gdb.pyo
+usr/share/hwdata/oui.txt
+usr/share/hwdata/pci.ids
+usr/share/hwdata/pnp.ids
+usr/share/hwdata/usb.ids
 usr/share/i18n/charmaps/ANSI_X3.110-1983.gz
 usr/share/i18n/charmaps/ANSI_X3.4-1968.gz
 usr/share/i18n/charmaps/ARMSCII-8.gz
@@ -1902,6 +1921,8 @@ usr/share/man/man1/dircolors.1.gz
 usr/share/man/man1/dirname.1.gz
 usr/share/man/man1/dirs.1.gz
 usr/share/man/man1/disown.1.gz
+usr/share/man/man1/dnsdomainname.1.gz
+usr/share/man/man1/domainname.1.gz
 usr/share/man/man1/du.1.gz
 usr/share/man/man1/echo.1.gz
 usr/share/man/man1/egrep.1.gz
@@ -1932,6 +1953,7 @@ usr/share/man/man1/head.1.gz
 usr/share/man/man1/help.1.gz
 usr/share/man/man1/history.1.gz
 usr/share/man/man1/hostid.1.gz
+usr/share/man/man1/hostname.1.gz
 usr/share/man/man1/id.1.gz
 usr/share/man/man1/idn.1.gz
 usr/share/man/man1/idn2.1.gz
@@ -1959,6 +1981,7 @@ usr/share/man/man1/mknod.1.gz
 usr/share/man/man1/mktemp.1.gz
 usr/share/man/man1/mv.1.gz
 usr/share/man/man1/nice.1.gz
+usr/share/man/man1/nisdomainname.1.gz
 usr/share/man/man1/nl.1.gz
 usr/share/man/man1/nohup.1.gz
 usr/share/man/man1/nproc.1.gz
@@ -2043,6 +2066,7 @@ usr/share/man/man1/yes.1.gz
 usr/share/man/man1/ypcat.1.gz
 usr/share/man/man1/ypchfn.1.gz
 usr/share/man/man1/ypchsh.1.gz
+usr/share/man/man1/ypdomainname.1.gz
 usr/share/man/man1/ypmatch.1.gz
 usr/share/man/man1/yppasswd.1.gz
 usr/share/man/man1/ypwhich.1.gz
@@ -2090,46 +2114,61 @@ usr/share/man/man8/ypbind.8.gz
 usr/share/man/man8/yppoll.8.gz
 usr/share/man/man8/ypset.8.gz
 usr/share/man/man8/yptest.8.gz
+usr/tmp
 var/db/Makefile
+var/mail
+var/tmp/tmp
 var/yp/nicknames
-@dirrmtry bin
 @dirrmtry boot
 @dirrmtry dev
+@dirrmtry etc/X11/applnk
+@dirrmtry etc/X11/fontpath.d
+@dirrmtry etc/X11
+@dirrmtry etc/bash_completion.d
 @dirrmtry etc/default
 @dirrmtry etc/dhcp/dhclient.d
 @dirrmtry etc/dhcp
 @dirrmtry etc/gss
 @dirrmtry etc/ld.so.conf.d
+@dirrmtry etc/opt
 @dirrmtry etc/pki/rpm-gpg
 @dirrmtry etc/pki
+@dirrmtry etc/pm/config.d
+@dirrmtry etc/pm/power.d
+@dirrmtry etc/pm/sleep.d
+@dirrmtry etc/pm
 @dirrmtry etc/popt.d
 @dirrmtry etc/profile.d
 @dirrmtry etc/rpm
 @dirrmtry etc/skel
+@dirrmtry etc/sysconfig
+@dirrmtry etc/xdg/autostart
+@dirrmtry etc/xdg
+@dirrmtry etc/xinetd.d
 @dirrmtry etc/yum.repos.d
 @dirrmtry etc
 @dirrmtry home
-@dirrmtry lib/i686/nosegneg
-@dirrmtry lib/i686
-@dirrmtry lib/rtkaio/i686/nosegneg
-@dirrmtry lib/rtkaio/i686
-@dirrmtry lib/rtkaio
-@dirrmtry lib
 @dirrmtry media
 @dirrmtry mnt
 @dirrmtry opt
 @dirrmtry proc
 @dirrmtry root
 @dirrmtry run
-@dirrmtry sbin
 @dirrmtry srv
 @dirrmtry sys
 @dirrmtry tmp
 @dirrmtry usr/bin
+@dirrmtry usr/games
+@dirrmtry usr/include
+@dirrmtry usr/lib/X11
 @dirrmtry usr/lib/audit
+@dirrmtry usr/lib/debug
+@dirrmtry usr/lib/games
 @dirrmtry usr/lib/gconv
 @dirrmtry usr/lib/gio/modules
 @dirrmtry usr/lib/gio
+@dirrmtry usr/lib/i686/nosegneg
+@dirrmtry usr/lib/i686
 @dirrmtry usr/lib/krb5/plugins/authdata
 @dirrmtry usr/lib/krb5/plugins/kdb
 @dirrmtry usr/lib/krb5/plugins/libkrb5
@@ -2137,9 +2176,19 @@ var/yp/nicknames
 @dirrmtry usr/lib/krb5/plugins
 @dirrmtry usr/lib/krb5
 @dirrmtry usr/lib/locale
+@dirrmtry usr/lib/modprobe.d
+@dirrmtry usr/lib/pm-utils/module.d
+@dirrmtry usr/lib/pm-utils/power.d
+@dirrmtry usr/lib/pm-utils/sleep.d
+@dirrmtry usr/lib/pm-utils
+@dirrmtry usr/lib/rtkaio/i686/nosegneg
+@dirrmtry usr/lib/rtkaio/i686
+@dirrmtry usr/lib/rtkaio
 @dirrmtry usr/lib/security
+@dirrmtry usr/lib/sse2
 @dirrmtry usr/lib/systemd/system
 @dirrmtry usr/lib/systemd
+@dirrmtry usr/lib/tls
 @dirrmtry usr/lib/tmpfiles.d
 @dirrmtry usr/lib
 @dirrmtry usr/libexec/coreutils
@@ -2147,8 +2196,16 @@ var/yp/nicknames
 @dirrmtry usr/libexec
 @dirrmtry usr/local
 @dirrmtry usr/sbin
+@dirrmtry usr/share/X11
+@dirrmtry usr/share/aclocal
+@dirrmtry usr/share/applications
+@dirrmtry usr/share/augeas/lenses
+@dirrmtry usr/share/augeas
+@dirrmtry usr/share/backgrounds
 @dirrmtry usr/share/bash-completion/completions
 @dirrmtry usr/share/bash-completion
+@dirrmtry usr/share/desktop-directories
+@dirrmtry usr/share/dict
 @dirrmtry usr/share/doc/bash
 @dirrmtry usr/share/doc/bzip2
 @dirrmtry usr/share/doc/coreutils/fileutils
@@ -2167,11 +2224,14 @@ var/yp/nicknames
 @dirrmtry usr/share/doc/glibc
 @dirrmtry usr/share/doc/glibc-common
 @dirrmtry usr/share/doc/grep
+@dirrmtry usr/share/doc/hostname
+@dirrmtry usr/share/doc/hwdata
 @dirrmtry usr/share/doc/info
 @dirrmtry usr/share/doc/keyutils-libs
 @dirrmtry usr/share/doc/krb5-libs/examples
 @dirrmtry usr/share/doc/krb5-libs
 @dirrmtry usr/share/doc/libcap
+@dirrmtry usr/share/doc/libcom_err
 @dirrmtry usr/share/doc/libgcc
 @dirrmtry usr/share/doc/libidn
 @dirrmtry usr/share/doc/libidn2
@@ -2187,6 +2247,8 @@ var/yp/nicknames
 @dirrmtry usr/share/doc/ypbind
 @dirrmtry usr/share/doc/zlib
 @dirrmtry usr/share/doc
+@dirrmtry usr/share/empty
+@dirrmtry usr/share/games
 @dirrmtry usr/share/gcc-4.8.2/python/libstdcxx/v6
 @dirrmtry usr/share/gcc-4.8.2/python/libstdcxx
 @dirrmtry usr/share/gcc-4.8.2/python
@@ -2195,186 +2257,884 @@ var/yp/nicknames
 @dirrmtry usr/share/gdb/auto-load/usr
 @dirrmtry usr/share/gdb/auto-load
 @dirrmtry usr/share/gdb
+@dirrmtry usr/share/ghostscript/conf.d
+@dirrmtry usr/share/ghostscript
 @dirrmtry usr/share/glib-2.0/schemas
 @dirrmtry usr/share/glib-2.0
+@dirrmtry usr/share/gnome
+@dirrmtry usr/share/hwdata
 @dirrmtry usr/share/i18n/charmaps
 @dirrmtry usr/share/i18n/locales
 @dirrmtry usr/share/i18n
+@dirrmtry usr/share/icons
+@dirrmtry usr/share/idl
 @dirrmtry usr/share/info
+@dirrmtry usr/share/locale/aa/LC_MESSAGES
+@dirrmtry usr/share/locale/aa
+@dirrmtry usr/share/locale/ab/LC_MESSAGES
+@dirrmtry usr/share/locale/ab
+@dirrmtry usr/share/locale/ace/LC_MESSAGES
+@dirrmtry usr/share/locale/ace
+@dirrmtry usr/share/locale/ach/LC_MESSAGES
+@dirrmtry usr/share/locale/ach
+@dirrmtry usr/share/locale/ada/LC_MESSAGES
+@dirrmtry usr/share/locale/ada
+@dirrmtry usr/share/locale/ady/LC_MESSAGES
+@dirrmtry usr/share/locale/ady
+@dirrmtry usr/share/locale/ae/LC_MESSAGES
+@dirrmtry usr/share/locale/ae
 @dirrmtry usr/share/locale/af/LC_MESSAGES
 @dirrmtry usr/share/locale/af/LC_TIME
 @dirrmtry usr/share/locale/af
+@dirrmtry usr/share/locale/af_ZA/LC_MESSAGES
+@dirrmtry usr/share/locale/af_ZA
+@dirrmtry usr/share/locale/afa/LC_MESSAGES
+@dirrmtry usr/share/locale/afa
+@dirrmtry usr/share/locale/afh/LC_MESSAGES
+@dirrmtry usr/share/locale/afh
+@dirrmtry usr/share/locale/ain/LC_MESSAGES
+@dirrmtry usr/share/locale/ain
+@dirrmtry usr/share/locale/ak/LC_MESSAGES
+@dirrmtry usr/share/locale/ak
+@dirrmtry usr/share/locale/akk/LC_MESSAGES
+@dirrmtry usr/share/locale/akk
+@dirrmtry usr/share/locale/ale/LC_MESSAGES
+@dirrmtry usr/share/locale/ale
+@dirrmtry usr/share/locale/alg/LC_MESSAGES
+@dirrmtry usr/share/locale/alg
+@dirrmtry usr/share/locale/alt/LC_MESSAGES
+@dirrmtry usr/share/locale/alt
 @dirrmtry usr/share/locale/am/LC_MESSAGES
 @dirrmtry usr/share/locale/am
+@dirrmtry usr/share/locale/am_ET/LC_MESSAGES
+@dirrmtry usr/share/locale/am_ET
 @dirrmtry usr/share/locale/an/LC_MESSAGES
 @dirrmtry usr/share/locale/an
+@dirrmtry usr/share/locale/ang/LC_MESSAGES
+@dirrmtry usr/share/locale/ang
+@dirrmtry usr/share/locale/anp/LC_MESSAGES
+@dirrmtry usr/share/locale/anp
+@dirrmtry usr/share/locale/apa/LC_MESSAGES
+@dirrmtry usr/share/locale/apa
 @dirrmtry usr/share/locale/ar/LC_MESSAGES
 @dirrmtry usr/share/locale/ar
+@dirrmtry usr/share/locale/arc/LC_MESSAGES
+@dirrmtry usr/share/locale/arc
+@dirrmtry usr/share/locale/arn/LC_MESSAGES
+@dirrmtry usr/share/locale/arn
+@dirrmtry usr/share/locale/arp/LC_MESSAGES
+@dirrmtry usr/share/locale/arp
+@dirrmtry usr/share/locale/art/LC_MESSAGES
+@dirrmtry usr/share/locale/art
+@dirrmtry usr/share/locale/arw/LC_MESSAGES
+@dirrmtry usr/share/locale/arw
 @dirrmtry usr/share/locale/as/LC_MESSAGES
 @dirrmtry usr/share/locale/as
 @dirrmtry usr/share/locale/ast/LC_MESSAGES
 @dirrmtry usr/share/locale/ast
+@dirrmtry usr/share/locale/ast_ES/LC_MESSAGES
+@dirrmtry usr/share/locale/ast_ES
+@dirrmtry usr/share/locale/ath/LC_MESSAGES
+@dirrmtry usr/share/locale/ath
+@dirrmtry usr/share/locale/aus/LC_MESSAGES
+@dirrmtry usr/share/locale/aus
+@dirrmtry usr/share/locale/av/LC_MESSAGES
+@dirrmtry usr/share/locale/av
+@dirrmtry usr/share/locale/awa/LC_MESSAGES
+@dirrmtry usr/share/locale/awa
+@dirrmtry usr/share/locale/ay/LC_MESSAGES
+@dirrmtry usr/share/locale/ay
 @dirrmtry usr/share/locale/az/LC_MESSAGES
 @dirrmtry usr/share/locale/az
+@dirrmtry usr/share/locale/az_IR/LC_MESSAGES
+@dirrmtry usr/share/locale/az_IR
+@dirrmtry usr/share/locale/ba/LC_MESSAGES
+@dirrmtry usr/share/locale/ba
+@dirrmtry usr/share/locale/bad/LC_MESSAGES
+@dirrmtry usr/share/locale/bad
+@dirrmtry usr/share/locale/bai/LC_MESSAGES
+@dirrmtry usr/share/locale/bai
+@dirrmtry usr/share/locale/bal/LC_MESSAGES
+@dirrmtry usr/share/locale/bal
+@dirrmtry usr/share/locale/ban/LC_MESSAGES
+@dirrmtry usr/share/locale/ban
+@dirrmtry usr/share/locale/bas/LC_MESSAGES
+@dirrmtry usr/share/locale/bas
+@dirrmtry usr/share/locale/bat/LC_MESSAGES
+@dirrmtry usr/share/locale/bat
 @dirrmtry usr/share/locale/be/LC_MESSAGES
 @dirrmtry usr/share/locale/be/LC_TIME
 @dirrmtry usr/share/locale/be
 @dirrmtry usr/share/locale/be@latin/LC_MESSAGES
 @dirrmtry usr/share/locale/be@latin
+@dirrmtry usr/share/locale/bej/LC_MESSAGES
+@dirrmtry usr/share/locale/bej
+@dirrmtry usr/share/locale/bem/LC_MESSAGES
+@dirrmtry usr/share/locale/bem
+@dirrmtry usr/share/locale/ber/LC_MESSAGES
+@dirrmtry usr/share/locale/ber
 @dirrmtry usr/share/locale/bg/LC_MESSAGES
 @dirrmtry usr/share/locale/bg/LC_TIME
 @dirrmtry usr/share/locale/bg
+@dirrmtry usr/share/locale/bg_BG/LC_MESSAGES
+@dirrmtry usr/share/locale/bg_BG
+@dirrmtry usr/share/locale/bh/LC_MESSAGES
+@dirrmtry usr/share/locale/bh
+@dirrmtry usr/share/locale/bho/LC_MESSAGES
+@dirrmtry usr/share/locale/bho
+@dirrmtry usr/share/locale/bi/LC_MESSAGES
+@dirrmtry usr/share/locale/bi
+@dirrmtry usr/share/locale/bik/LC_MESSAGES
+@dirrmtry usr/share/locale/bik
+@dirrmtry usr/share/locale/bin/LC_MESSAGES
+@dirrmtry usr/share/locale/bin
+@dirrmtry usr/share/locale/bla/LC_MESSAGES
+@dirrmtry usr/share/locale/bla
+@dirrmtry usr/share/locale/bm/LC_MESSAGES
+@dirrmtry usr/share/locale/bm
 @dirrmtry usr/share/locale/bn/LC_MESSAGES
 @dirrmtry usr/share/locale/bn
 @dirrmtry usr/share/locale/bn_IN/LC_MESSAGES
 @dirrmtry usr/share/locale/bn_IN
+@dirrmtry usr/share/locale/bnt/LC_MESSAGES
+@dirrmtry usr/share/locale/bnt
+@dirrmtry usr/share/locale/bo/LC_MESSAGES
+@dirrmtry usr/share/locale/bo
+@dirrmtry usr/share/locale/br/LC_MESSAGES
+@dirrmtry usr/share/locale/br
+@dirrmtry usr/share/locale/bra/LC_MESSAGES
+@dirrmtry usr/share/locale/bra
+@dirrmtry usr/share/locale/brx/LC_MESSAGES
+@dirrmtry usr/share/locale/brx
 @dirrmtry usr/share/locale/bs/LC_MESSAGES
 @dirrmtry usr/share/locale/bs
+@dirrmtry usr/share/locale/btk/LC_MESSAGES
+@dirrmtry usr/share/locale/btk
+@dirrmtry usr/share/locale/bua/LC_MESSAGES
+@dirrmtry usr/share/locale/bua
+@dirrmtry usr/share/locale/bug/LC_MESSAGES
+@dirrmtry usr/share/locale/bug
+@dirrmtry usr/share/locale/byn/LC_MESSAGES
+@dirrmtry usr/share/locale/byn
 @dirrmtry usr/share/locale/ca/LC_MESSAGES
 @dirrmtry usr/share/locale/ca/LC_TIME
 @dirrmtry usr/share/locale/ca
 @dirrmtry usr/share/locale/ca@valencia/LC_MESSAGES
 @dirrmtry usr/share/locale/ca@valencia
+@dirrmtry usr/share/locale/ca_ES/LC_MESSAGES
+@dirrmtry usr/share/locale/ca_ES
+@dirrmtry usr/share/locale/ca_ES@valencian/LC_MESSAGES
+@dirrmtry usr/share/locale/ca_ES@valencian
+@dirrmtry usr/share/locale/cad/LC_MESSAGES
+@dirrmtry usr/share/locale/cad
+@dirrmtry usr/share/locale/cai/LC_MESSAGES
+@dirrmtry usr/share/locale/cai
+@dirrmtry usr/share/locale/car/LC_MESSAGES
+@dirrmtry usr/share/locale/car
+@dirrmtry usr/share/locale/cau/LC_MESSAGES
+@dirrmtry usr/share/locale/cau
+@dirrmtry usr/share/locale/ce/LC_MESSAGES
+@dirrmtry usr/share/locale/ce
+@dirrmtry usr/share/locale/ceb/LC_MESSAGES
+@dirrmtry usr/share/locale/ceb
+@dirrmtry usr/share/locale/cel/LC_MESSAGES
+@dirrmtry usr/share/locale/cel
+@dirrmtry usr/share/locale/ch/LC_MESSAGES
+@dirrmtry usr/share/locale/ch
+@dirrmtry usr/share/locale/chb/LC_MESSAGES
+@dirrmtry usr/share/locale/chb
+@dirrmtry usr/share/locale/chg/LC_MESSAGES
+@dirrmtry usr/share/locale/chg
+@dirrmtry usr/share/locale/chk/LC_MESSAGES
+@dirrmtry usr/share/locale/chk
+@dirrmtry usr/share/locale/chm/LC_MESSAGES
+@dirrmtry usr/share/locale/chm
+@dirrmtry usr/share/locale/chn/LC_MESSAGES
+@dirrmtry usr/share/locale/chn
+@dirrmtry usr/share/locale/cho/LC_MESSAGES
+@dirrmtry usr/share/locale/cho
+@dirrmtry usr/share/locale/chp/LC_MESSAGES
+@dirrmtry usr/share/locale/chp
+@dirrmtry usr/share/locale/chr/LC_MESSAGES
+@dirrmtry usr/share/locale/chr
+@dirrmtry usr/share/locale/chy/LC_MESSAGES
+@dirrmtry usr/share/locale/chy
+@dirrmtry usr/share/locale/cmc/LC_MESSAGES
+@dirrmtry usr/share/locale/cmc
+@dirrmtry usr/share/locale/co/LC_MESSAGES
+@dirrmtry usr/share/locale/co
+@dirrmtry usr/share/locale/cop/LC_MESSAGES
+@dirrmtry usr/share/locale/cop
+@dirrmtry usr/share/locale/cpe/LC_MESSAGES
+@dirrmtry usr/share/locale/cpe
+@dirrmtry usr/share/locale/cpf/LC_MESSAGES
+@dirrmtry usr/share/locale/cpf
+@dirrmtry usr/share/locale/cpp/LC_MESSAGES
+@dirrmtry usr/share/locale/cpp
+@dirrmtry usr/share/locale/cr/LC_MESSAGES
+@dirrmtry usr/share/locale/cr
+@dirrmtry usr/share/locale/crh/LC_MESSAGES
+@dirrmtry usr/share/locale/crh
+@dirrmtry usr/share/locale/crp/LC_MESSAGES
+@dirrmtry usr/share/locale/crp
 @dirrmtry usr/share/locale/cs/LC_MESSAGES
 @dirrmtry usr/share/locale/cs/LC_TIME
 @dirrmtry usr/share/locale/cs
+@dirrmtry usr/share/locale/cs_CZ/LC_MESSAGES
+@dirrmtry usr/share/locale/cs_CZ
+@dirrmtry usr/share/locale/csb/LC_MESSAGES
+@dirrmtry usr/share/locale/csb
+@dirrmtry usr/share/locale/cu/LC_MESSAGES
+@dirrmtry usr/share/locale/cu
+@dirrmtry usr/share/locale/cus/LC_MESSAGES
+@dirrmtry usr/share/locale/cus
+@dirrmtry usr/share/locale/cv/LC_MESSAGES
+@dirrmtry usr/share/locale/cv
 @dirrmtry usr/share/locale/cy/LC_MESSAGES
 @dirrmtry usr/share/locale/cy
 @dirrmtry usr/share/locale/da/LC_MESSAGES
 @dirrmtry usr/share/locale/da/LC_TIME
 @dirrmtry usr/share/locale/da
+@dirrmtry usr/share/locale/dak/LC_MESSAGES
+@dirrmtry usr/share/locale/dak
+@dirrmtry usr/share/locale/dar/LC_MESSAGES
+@dirrmtry usr/share/locale/dar
+@dirrmtry usr/share/locale/day/LC_MESSAGES
+@dirrmtry usr/share/locale/day
 @dirrmtry usr/share/locale/de/LC_MESSAGES
 @dirrmtry usr/share/locale/de/LC_TIME
 @dirrmtry usr/share/locale/de
+@dirrmtry usr/share/locale/de_AT/LC_MESSAGES
+@dirrmtry usr/share/locale/de_AT
+@dirrmtry usr/share/locale/de_CH/LC_MESSAGES
+@dirrmtry usr/share/locale/de_CH
+@dirrmtry usr/share/locale/de_DE/LC_MESSAGES
+@dirrmtry usr/share/locale/de_DE
+@dirrmtry usr/share/locale/default/LC_MESSAGES
+@dirrmtry usr/share/locale/default
+@dirrmtry usr/share/locale/del/LC_MESSAGES
+@dirrmtry usr/share/locale/del
+@dirrmtry usr/share/locale/den/LC_MESSAGES
+@dirrmtry usr/share/locale/den
+@dirrmtry usr/share/locale/dgr/LC_MESSAGES
+@dirrmtry usr/share/locale/dgr
+@dirrmtry usr/share/locale/din/LC_MESSAGES
+@dirrmtry usr/share/locale/din
+@dirrmtry usr/share/locale/doi/LC_MESSAGES
+@dirrmtry usr/share/locale/doi
+@dirrmtry usr/share/locale/dra/LC_MESSAGES
+@dirrmtry usr/share/locale/dra
+@dirrmtry usr/share/locale/dsb/LC_MESSAGES
+@dirrmtry usr/share/locale/dsb
+@dirrmtry usr/share/locale/dua/LC_MESSAGES
+@dirrmtry usr/share/locale/dua
+@dirrmtry usr/share/locale/dum/LC_MESSAGES
+@dirrmtry usr/share/locale/dum
+@dirrmtry usr/share/locale/dv/LC_MESSAGES
+@dirrmtry usr/share/locale/dv
+@dirrmtry usr/share/locale/dyu/LC_MESSAGES
+@dirrmtry usr/share/locale/dyu
 @dirrmtry usr/share/locale/dz/LC_MESSAGES
 @dirrmtry usr/share/locale/dz
+@dirrmtry usr/share/locale/ee/LC_MESSAGES
+@dirrmtry usr/share/locale/ee
+@dirrmtry usr/share/locale/efi/LC_MESSAGES
+@dirrmtry usr/share/locale/efi
+@dirrmtry usr/share/locale/egy/LC_MESSAGES
+@dirrmtry usr/share/locale/egy
+@dirrmtry usr/share/locale/eka/LC_MESSAGES
+@dirrmtry usr/share/locale/eka
 @dirrmtry usr/share/locale/el/LC_MESSAGES
 @dirrmtry usr/share/locale/el/LC_TIME
 @dirrmtry usr/share/locale/el
+@dirrmtry usr/share/locale/el_GR/LC_MESSAGES
+@dirrmtry usr/share/locale/el_GR
+@dirrmtry usr/share/locale/elx/LC_MESSAGES
+@dirrmtry usr/share/locale/elx
+@dirrmtry usr/share/locale/en/LC_MESSAGES
+@dirrmtry usr/share/locale/en
 @dirrmtry usr/share/locale/en@boldquot/LC_MESSAGES
 @dirrmtry usr/share/locale/en@boldquot
 @dirrmtry usr/share/locale/en@quot/LC_MESSAGES
 @dirrmtry usr/share/locale/en@quot
 @dirrmtry usr/share/locale/en@shaw/LC_MESSAGES
 @dirrmtry usr/share/locale/en@shaw
+@dirrmtry usr/share/locale/en_AU/LC_MESSAGES
+@dirrmtry usr/share/locale/en_AU
 @dirrmtry usr/share/locale/en_CA/LC_MESSAGES
 @dirrmtry usr/share/locale/en_CA
 @dirrmtry usr/share/locale/en_GB/LC_MESSAGES
 @dirrmtry usr/share/locale/en_GB
+@dirrmtry usr/share/locale/en_NZ/LC_MESSAGES
+@dirrmtry usr/share/locale/en_NZ
 @dirrmtry usr/share/locale/en_US/LC_MESSAGES
 @dirrmtry usr/share/locale/en_US
+@dirrmtry usr/share/locale/enm/LC_MESSAGES
+@dirrmtry usr/share/locale/enm
 @dirrmtry usr/share/locale/eo/LC_MESSAGES
 @dirrmtry usr/share/locale/eo/LC_TIME
 @dirrmtry usr/share/locale/eo
 @dirrmtry usr/share/locale/es/LC_MESSAGES
 @dirrmtry usr/share/locale/es/LC_TIME
 @dirrmtry usr/share/locale/es
+@dirrmtry usr/share/locale/es_AR/LC_MESSAGES
+@dirrmtry usr/share/locale/es_AR
+@dirrmtry usr/share/locale/es_CL/LC_MESSAGES
+@dirrmtry usr/share/locale/es_CL
+@dirrmtry usr/share/locale/es_CO/LC_MESSAGES
+@dirrmtry usr/share/locale/es_CO
+@dirrmtry usr/share/locale/es_CR/LC_MESSAGES
+@dirrmtry usr/share/locale/es_CR
+@dirrmtry usr/share/locale/es_DO/LC_MESSAGES
+@dirrmtry usr/share/locale/es_DO
+@dirrmtry usr/share/locale/es_EC/LC_MESSAGES
+@dirrmtry usr/share/locale/es_EC
+@dirrmtry usr/share/locale/es_ES/LC_MESSAGES
+@dirrmtry usr/share/locale/es_ES
+@dirrmtry usr/share/locale/es_GT/LC_MESSAGES
+@dirrmtry usr/share/locale/es_GT
+@dirrmtry usr/share/locale/es_HN/LC_MESSAGES
+@dirrmtry usr/share/locale/es_HN
+@dirrmtry usr/share/locale/es_MX/LC_MESSAGES
+@dirrmtry usr/share/locale/es_MX
+@dirrmtry usr/share/locale/es_NI/LC_MESSAGES
+@dirrmtry usr/share/locale/es_NI
+@dirrmtry usr/share/locale/es_PA/LC_MESSAGES
+@dirrmtry usr/share/locale/es_PA
+@dirrmtry usr/share/locale/es_PE/LC_MESSAGES
+@dirrmtry usr/share/locale/es_PE
+@dirrmtry usr/share/locale/es_PR/LC_MESSAGES
+@dirrmtry usr/share/locale/es_PR
+@dirrmtry usr/share/locale/es_SV/LC_MESSAGES
+@dirrmtry usr/share/locale/es_SV
+@dirrmtry usr/share/locale/es_UY/LC_MESSAGES
+@dirrmtry usr/share/locale/es_UY
+@dirrmtry usr/share/locale/es_VE/LC_MESSAGES
+@dirrmtry usr/share/locale/es_VE
 @dirrmtry usr/share/locale/et/LC_MESSAGES
 @dirrmtry usr/share/locale/et/LC_TIME
 @dirrmtry usr/share/locale/et
+@dirrmtry usr/share/locale/et_EE/LC_MESSAGES
+@dirrmtry usr/share/locale/et_EE
 @dirrmtry usr/share/locale/eu/LC_MESSAGES
 @dirrmtry usr/share/locale/eu/LC_TIME
 @dirrmtry usr/share/locale/eu
+@dirrmtry usr/share/locale/eu_ES/LC_MESSAGES
+@dirrmtry usr/share/locale/eu_ES
+@dirrmtry usr/share/locale/ewo/LC_MESSAGES
+@dirrmtry usr/share/locale/ewo
 @dirrmtry usr/share/locale/fa/LC_MESSAGES
 @dirrmtry usr/share/locale/fa
+@dirrmtry usr/share/locale/fa_IR/LC_MESSAGES
+@dirrmtry usr/share/locale/fa_IR
+@dirrmtry usr/share/locale/fan/LC_MESSAGES
+@dirrmtry usr/share/locale/fan
+@dirrmtry usr/share/locale/fat/LC_MESSAGES
+@dirrmtry usr/share/locale/fat
+@dirrmtry usr/share/locale/ff/LC_MESSAGES
+@dirrmtry usr/share/locale/ff
 @dirrmtry usr/share/locale/fi/LC_MESSAGES
 @dirrmtry usr/share/locale/fi/LC_TIME
 @dirrmtry usr/share/locale/fi
+@dirrmtry usr/share/locale/fi_FI/LC_MESSAGES
+@dirrmtry usr/share/locale/fi_FI
+@dirrmtry usr/share/locale/fil/LC_MESSAGES
+@dirrmtry usr/share/locale/fil
+@dirrmtry usr/share/locale/fiu/LC_MESSAGES
+@dirrmtry usr/share/locale/fiu
+@dirrmtry usr/share/locale/fj/LC_MESSAGES
+@dirrmtry usr/share/locale/fj
+@dirrmtry usr/share/locale/fo/LC_MESSAGES
+@dirrmtry usr/share/locale/fo
+@dirrmtry usr/share/locale/fon/LC_MESSAGES
+@dirrmtry usr/share/locale/fon
 @dirrmtry usr/share/locale/fr/LC_MESSAGES
 @dirrmtry usr/share/locale/fr/LC_TIME
 @dirrmtry usr/share/locale/fr
+@dirrmtry usr/share/locale/fr_BE/LC_MESSAGES
+@dirrmtry usr/share/locale/fr_BE
+@dirrmtry usr/share/locale/fr_CA/LC_MESSAGES
+@dirrmtry usr/share/locale/fr_CA
+@dirrmtry usr/share/locale/fr_CH/LC_MESSAGES
+@dirrmtry usr/share/locale/fr_CH
+@dirrmtry usr/share/locale/fr_FR/LC_MESSAGES
+@dirrmtry usr/share/locale/fr_FR
+@dirrmtry usr/share/locale/frm/LC_MESSAGES
+@dirrmtry usr/share/locale/frm
+@dirrmtry usr/share/locale/fro/LC_MESSAGES
+@dirrmtry usr/share/locale/fro
+@dirrmtry usr/share/locale/frr/LC_MESSAGES
+@dirrmtry usr/share/locale/frr
+@dirrmtry usr/share/locale/frs/LC_MESSAGES
+@dirrmtry usr/share/locale/frs
+@dirrmtry usr/share/locale/fur/LC_MESSAGES
+@dirrmtry usr/share/locale/fur
+@dirrmtry usr/share/locale/fy/LC_MESSAGES
+@dirrmtry usr/share/locale/fy
 @dirrmtry usr/share/locale/ga/LC_MESSAGES
 @dirrmtry usr/share/locale/ga/LC_TIME
 @dirrmtry usr/share/locale/ga
+@dirrmtry usr/share/locale/gaa/LC_MESSAGES
+@dirrmtry usr/share/locale/gaa
+@dirrmtry usr/share/locale/gay/LC_MESSAGES
+@dirrmtry usr/share/locale/gay
+@dirrmtry usr/share/locale/gba/LC_MESSAGES
+@dirrmtry usr/share/locale/gba
+@dirrmtry usr/share/locale/gd/LC_MESSAGES
+@dirrmtry usr/share/locale/gd
+@dirrmtry usr/share/locale/gem/LC_MESSAGES
+@dirrmtry usr/share/locale/gem
+@dirrmtry usr/share/locale/gez/LC_MESSAGES
+@dirrmtry usr/share/locale/gez
+@dirrmtry usr/share/locale/gil/LC_MESSAGES
+@dirrmtry usr/share/locale/gil
 @dirrmtry usr/share/locale/gl/LC_MESSAGES
 @dirrmtry usr/share/locale/gl/LC_TIME
 @dirrmtry usr/share/locale/gl
+@dirrmtry usr/share/locale/gl_ES/LC_MESSAGES
+@dirrmtry usr/share/locale/gl_ES
+@dirrmtry usr/share/locale/gmh/LC_MESSAGES
+@dirrmtry usr/share/locale/gmh
+@dirrmtry usr/share/locale/gn/LC_MESSAGES
+@dirrmtry usr/share/locale/gn
+@dirrmtry usr/share/locale/goh/LC_MESSAGES
+@dirrmtry usr/share/locale/goh
+@dirrmtry usr/share/locale/gon/LC_MESSAGES
+@dirrmtry usr/share/locale/gon
+@dirrmtry usr/share/locale/gor/LC_MESSAGES
+@dirrmtry usr/share/locale/gor
+@dirrmtry usr/share/locale/got/LC_MESSAGES
+@dirrmtry usr/share/locale/got
+@dirrmtry usr/share/locale/grb/LC_MESSAGES
+@dirrmtry usr/share/locale/grb
+@dirrmtry usr/share/locale/grc/LC_MESSAGES
+@dirrmtry usr/share/locale/grc
+@dirrmtry usr/share/locale/gsw/LC_MESSAGES
+@dirrmtry usr/share/locale/gsw
 @dirrmtry usr/share/locale/gu/LC_MESSAGES
 @dirrmtry usr/share/locale/gu
+@dirrmtry usr/share/locale/gv/LC_MESSAGES
+@dirrmtry usr/share/locale/gv
+@dirrmtry usr/share/locale/gwi/LC_MESSAGES
+@dirrmtry usr/share/locale/gwi
+@dirrmtry usr/share/locale/ha/LC_MESSAGES
+@dirrmtry usr/share/locale/ha
+@dirrmtry usr/share/locale/hai/LC_MESSAGES
+@dirrmtry usr/share/locale/hai
+@dirrmtry usr/share/locale/haw/LC_MESSAGES
+@dirrmtry usr/share/locale/haw
 @dirrmtry usr/share/locale/he/LC_MESSAGES
 @dirrmtry usr/share/locale/he
+@dirrmtry usr/share/locale/he_IL/LC_MESSAGES
+@dirrmtry usr/share/locale/he_IL
 @dirrmtry usr/share/locale/hi/LC_MESSAGES
 @dirrmtry usr/share/locale/hi
+@dirrmtry usr/share/locale/hil/LC_MESSAGES
+@dirrmtry usr/share/locale/hil
+@dirrmtry usr/share/locale/him/LC_MESSAGES
+@dirrmtry usr/share/locale/him
+@dirrmtry usr/share/locale/hit/LC_MESSAGES
+@dirrmtry usr/share/locale/hit
+@dirrmtry usr/share/locale/hmn/LC_MESSAGES
+@dirrmtry usr/share/locale/hmn
+@dirrmtry usr/share/locale/ho/LC_MESSAGES
+@dirrmtry usr/share/locale/ho
 @dirrmtry usr/share/locale/hr/LC_MESSAGES
 @dirrmtry usr/share/locale/hr/LC_TIME
 @dirrmtry usr/share/locale/hr
+@dirrmtry usr/share/locale/hr_HR/LC_MESSAGES
+@dirrmtry usr/share/locale/hr_HR
+@dirrmtry usr/share/locale/hsb/LC_MESSAGES
+@dirrmtry usr/share/locale/hsb
+@dirrmtry usr/share/locale/ht/LC_MESSAGES
+@dirrmtry usr/share/locale/ht
 @dirrmtry usr/share/locale/hu/LC_MESSAGES
 @dirrmtry usr/share/locale/hu/LC_TIME
 @dirrmtry usr/share/locale/hu
+@dirrmtry usr/share/locale/hu_HU/LC_MESSAGES
+@dirrmtry usr/share/locale/hu_HU
+@dirrmtry usr/share/locale/hup/LC_MESSAGES
+@dirrmtry usr/share/locale/hup
 @dirrmtry usr/share/locale/hy/LC_MESSAGES
 @dirrmtry usr/share/locale/hy
+@dirrmtry usr/share/locale/hz/LC_MESSAGES
+@dirrmtry usr/share/locale/hz
 @dirrmtry usr/share/locale/ia/LC_MESSAGES
 @dirrmtry usr/share/locale/ia/LC_TIME
 @dirrmtry usr/share/locale/ia
+@dirrmtry usr/share/locale/iba/LC_MESSAGES
+@dirrmtry usr/share/locale/iba
 @dirrmtry usr/share/locale/id/LC_MESSAGES
 @dirrmtry usr/share/locale/id/LC_TIME
 @dirrmtry usr/share/locale/id
+@dirrmtry usr/share/locale/ie/LC_MESSAGES
+@dirrmtry usr/share/locale/ie
+@dirrmtry usr/share/locale/ig/LC_MESSAGES
+@dirrmtry usr/share/locale/ig
+@dirrmtry usr/share/locale/ii/LC_MESSAGES
+@dirrmtry usr/share/locale/ii
+@dirrmtry usr/share/locale/ijo/LC_MESSAGES
+@dirrmtry usr/share/locale/ijo
+@dirrmtry usr/share/locale/ik/LC_MESSAGES
+@dirrmtry usr/share/locale/ik
+@dirrmtry usr/share/locale/ilo/LC_MESSAGES
+@dirrmtry usr/share/locale/ilo
+@dirrmtry usr/share/locale/inc/LC_MESSAGES
+@dirrmtry usr/share/locale/inc
+@dirrmtry usr/share/locale/ine/LC_MESSAGES
+@dirrmtry usr/share/locale/ine
+@dirrmtry usr/share/locale/inh/LC_MESSAGES
+@dirrmtry usr/share/locale/inh
+@dirrmtry usr/share/locale/io/LC_MESSAGES
+@dirrmtry usr/share/locale/io
+@dirrmtry usr/share/locale/ira/LC_MESSAGES
+@dirrmtry usr/share/locale/ira
+@dirrmtry usr/share/locale/iro/LC_MESSAGES
+@dirrmtry usr/share/locale/iro
 @dirrmtry usr/share/locale/is/LC_MESSAGES
 @dirrmtry usr/share/locale/is
 @dirrmtry usr/share/locale/it/LC_MESSAGES
 @dirrmtry usr/share/locale/it/LC_TIME
 @dirrmtry usr/share/locale/it
+@dirrmtry usr/share/locale/it_CH/LC_MESSAGES
+@dirrmtry usr/share/locale/it_CH
+@dirrmtry usr/share/locale/it_IT/LC_MESSAGES
+@dirrmtry usr/share/locale/it_IT
+@dirrmtry usr/share/locale/iu/LC_MESSAGES
+@dirrmtry usr/share/locale/iu
 @dirrmtry usr/share/locale/ja/LC_MESSAGES
 @dirrmtry usr/share/locale/ja/LC_TIME
 @dirrmtry usr/share/locale/ja
+@dirrmtry usr/share/locale/ja_JP/LC_MESSAGES
+@dirrmtry usr/share/locale/ja_JP
+@dirrmtry usr/share/locale/jbo/LC_MESSAGES
+@dirrmtry usr/share/locale/jbo
+@dirrmtry usr/share/locale/jpr/LC_MESSAGES
+@dirrmtry usr/share/locale/jpr
+@dirrmtry usr/share/locale/jrb/LC_MESSAGES
+@dirrmtry usr/share/locale/jrb
+@dirrmtry usr/share/locale/jv/LC_MESSAGES
+@dirrmtry usr/share/locale/jv
 @dirrmtry usr/share/locale/ka/LC_MESSAGES
 @dirrmtry usr/share/locale/ka
+@dirrmtry usr/share/locale/kaa/LC_MESSAGES
+@dirrmtry usr/share/locale/kaa
+@dirrmtry usr/share/locale/kab/LC_MESSAGES
+@dirrmtry usr/share/locale/kab
+@dirrmtry usr/share/locale/kac/LC_MESSAGES
+@dirrmtry usr/share/locale/kac
+@dirrmtry usr/share/locale/kam/LC_MESSAGES
+@dirrmtry usr/share/locale/kam
+@dirrmtry usr/share/locale/kar/LC_MESSAGES
+@dirrmtry usr/share/locale/kar
+@dirrmtry usr/share/locale/kaw/LC_MESSAGES
+@dirrmtry usr/share/locale/kaw
+@dirrmtry usr/share/locale/kbd/LC_MESSAGES
+@dirrmtry usr/share/locale/kbd
+@dirrmtry usr/share/locale/kg/LC_MESSAGES
+@dirrmtry usr/share/locale/kg
+@dirrmtry usr/share/locale/kha/LC_MESSAGES
+@dirrmtry usr/share/locale/kha
+@dirrmtry usr/share/locale/khi/LC_MESSAGES
+@dirrmtry usr/share/locale/khi
+@dirrmtry usr/share/locale/kho/LC_MESSAGES
+@dirrmtry usr/share/locale/kho
+@dirrmtry usr/share/locale/ki/LC_MESSAGES
+@dirrmtry usr/share/locale/ki
+@dirrmtry usr/share/locale/kj/LC_MESSAGES
+@dirrmtry usr/share/locale/kj
 @dirrmtry usr/share/locale/kk/LC_MESSAGES
 @dirrmtry usr/share/locale/kk/LC_TIME
 @dirrmtry usr/share/locale/kk
+@dirrmtry usr/share/locale/kl/LC_MESSAGES
+@dirrmtry usr/share/locale/kl
+@dirrmtry usr/share/locale/km/LC_MESSAGES
+@dirrmtry usr/share/locale/km
+@dirrmtry usr/share/locale/kmb/LC_MESSAGES
+@dirrmtry usr/share/locale/kmb
 @dirrmtry usr/share/locale/kn/LC_MESSAGES
 @dirrmtry usr/share/locale/kn
 @dirrmtry usr/share/locale/ko/LC_MESSAGES
 @dirrmtry usr/share/locale/ko/LC_TIME
 @dirrmtry usr/share/locale/ko
+@dirrmtry usr/share/locale/ko_KR/LC_MESSAGES
+@dirrmtry usr/share/locale/ko_KR
+@dirrmtry usr/share/locale/kok/LC_MESSAGES
+@dirrmtry usr/share/locale/kok
+@dirrmtry usr/share/locale/kos/LC_MESSAGES
+@dirrmtry usr/share/locale/kos
+@dirrmtry usr/share/locale/kpe/LC_MESSAGES
+@dirrmtry usr/share/locale/kpe
+@dirrmtry usr/share/locale/kr/LC_MESSAGES
+@dirrmtry usr/share/locale/kr
+@dirrmtry usr/share/locale/krc/LC_MESSAGES
+@dirrmtry usr/share/locale/krc
+@dirrmtry usr/share/locale/krl/LC_MESSAGES
+@dirrmtry usr/share/locale/krl
+@dirrmtry usr/share/locale/kro/LC_MESSAGES
+@dirrmtry usr/share/locale/kro
+@dirrmtry usr/share/locale/kru/LC_MESSAGES
+@dirrmtry usr/share/locale/kru
+@dirrmtry usr/share/locale/ks/LC_MESSAGES
+@dirrmtry usr/share/locale/ks
+@dirrmtry usr/share/locale/ks@devanagari/LC_MESSAGES
+@dirrmtry usr/share/locale/ks@devanagari
 @dirrmtry usr/share/locale/ku/LC_MESSAGES
 @dirrmtry usr/share/locale/ku
+@dirrmtry usr/share/locale/kum/LC_MESSAGES
+@dirrmtry usr/share/locale/kum
+@dirrmtry usr/share/locale/kut/LC_MESSAGES
+@dirrmtry usr/share/locale/kut
+@dirrmtry usr/share/locale/kv/LC_MESSAGES
+@dirrmtry usr/share/locale/kv
+@dirrmtry usr/share/locale/kw/LC_MESSAGES
+@dirrmtry usr/share/locale/kw
 @dirrmtry usr/share/locale/ky/LC_MESSAGES
 @dirrmtry usr/share/locale/ky
+@dirrmtry usr/share/locale/la/LC_MESSAGES
+@dirrmtry usr/share/locale/la
+@dirrmtry usr/share/locale/lad/LC_MESSAGES
+@dirrmtry usr/share/locale/lad
+@dirrmtry usr/share/locale/lah/LC_MESSAGES
+@dirrmtry usr/share/locale/lah
+@dirrmtry usr/share/locale/lam/LC_MESSAGES
+@dirrmtry usr/share/locale/lam
+@dirrmtry usr/share/locale/lb/LC_MESSAGES
+@dirrmtry usr/share/locale/lb
+@dirrmtry usr/share/locale/lez/LC_MESSAGES
+@dirrmtry usr/share/locale/lez
 @dirrmtry usr/share/locale/lg/LC_MESSAGES
 @dirrmtry usr/share/locale/lg/LC_TIME
 @dirrmtry usr/share/locale/lg
+@dirrmtry usr/share/locale/li/LC_MESSAGES
+@dirrmtry usr/share/locale/li
+@dirrmtry usr/share/locale/ln/LC_MESSAGES
+@dirrmtry usr/share/locale/ln
+@dirrmtry usr/share/locale/lo/LC_MESSAGES
+@dirrmtry usr/share/locale/lo
+@dirrmtry usr/share/locale/lol/LC_MESSAGES
+@dirrmtry usr/share/locale/lol
+@dirrmtry usr/share/locale/loz/LC_MESSAGES
+@dirrmtry usr/share/locale/loz
 @dirrmtry usr/share/locale/lt/LC_MESSAGES
 @dirrmtry usr/share/locale/lt/LC_TIME
 @dirrmtry usr/share/locale/lt
+@dirrmtry usr/share/locale/lu/LC_MESSAGES
+@dirrmtry usr/share/locale/lu
+@dirrmtry usr/share/locale/lua/LC_MESSAGES
+@dirrmtry usr/share/locale/lua
+@dirrmtry usr/share/locale/lui/LC_MESSAGES
+@dirrmtry usr/share/locale/lui
+@dirrmtry usr/share/locale/lun/LC_MESSAGES
+@dirrmtry usr/share/locale/lun
+@dirrmtry usr/share/locale/luo/LC_MESSAGES
+@dirrmtry usr/share/locale/luo
+@dirrmtry usr/share/locale/lus/LC_MESSAGES
+@dirrmtry usr/share/locale/lus
 @dirrmtry usr/share/locale/lv/LC_MESSAGES
 @dirrmtry usr/share/locale/lv
+@dirrmtry usr/share/locale/lv_LV/LC_MESSAGES
+@dirrmtry usr/share/locale/lv_LV
+@dirrmtry usr/share/locale/mad/LC_MESSAGES
+@dirrmtry usr/share/locale/mad
+@dirrmtry usr/share/locale/mag/LC_MESSAGES
+@dirrmtry usr/share/locale/mag
 @dirrmtry usr/share/locale/mai/LC_MESSAGES
 @dirrmtry usr/share/locale/mai
+@dirrmtry usr/share/locale/mak/LC_MESSAGES
+@dirrmtry usr/share/locale/mak
+@dirrmtry usr/share/locale/man/LC_MESSAGES
+@dirrmtry usr/share/locale/man
+@dirrmtry usr/share/locale/map/LC_MESSAGES
+@dirrmtry usr/share/locale/map
+@dirrmtry usr/share/locale/mas/LC_MESSAGES
+@dirrmtry usr/share/locale/mas
+@dirrmtry usr/share/locale/mdf/LC_MESSAGES
+@dirrmtry usr/share/locale/mdf
+@dirrmtry usr/share/locale/mdr/LC_MESSAGES
+@dirrmtry usr/share/locale/mdr
+@dirrmtry usr/share/locale/men/LC_MESSAGES
+@dirrmtry usr/share/locale/men
 @dirrmtry usr/share/locale/mg/LC_MESSAGES
 @dirrmtry usr/share/locale/mg
+@dirrmtry usr/share/locale/mga/LC_MESSAGES
+@dirrmtry usr/share/locale/mga
+@dirrmtry usr/share/locale/mh/LC_MESSAGES
+@dirrmtry usr/share/locale/mh
+@dirrmtry usr/share/locale/mi/LC_MESSAGES
+@dirrmtry usr/share/locale/mi
+@dirrmtry usr/share/locale/mic/LC_MESSAGES
+@dirrmtry usr/share/locale/mic
+@dirrmtry usr/share/locale/min/LC_MESSAGES
+@dirrmtry usr/share/locale/min
+@dirrmtry usr/share/locale/mis/LC_MESSAGES
+@dirrmtry usr/share/locale/mis
 @dirrmtry usr/share/locale/mk/LC_MESSAGES
 @dirrmtry usr/share/locale/mk
+@dirrmtry usr/share/locale/mkh/LC_MESSAGES
+@dirrmtry usr/share/locale/mkh
 @dirrmtry usr/share/locale/ml/LC_MESSAGES
 @dirrmtry usr/share/locale/ml
 @dirrmtry usr/share/locale/mn/LC_MESSAGES
 @dirrmtry usr/share/locale/mn
+@dirrmtry usr/share/locale/mnc/LC_MESSAGES
+@dirrmtry usr/share/locale/mnc
+@dirrmtry usr/share/locale/mni/LC_MESSAGES
+@dirrmtry usr/share/locale/mni
+@dirrmtry usr/share/locale/mno/LC_MESSAGES
+@dirrmtry usr/share/locale/mno
+@dirrmtry usr/share/locale/mo/LC_MESSAGES
+@dirrmtry usr/share/locale/mo
+@dirrmtry usr/share/locale/moh/LC_MESSAGES
+@dirrmtry usr/share/locale/moh
+@dirrmtry usr/share/locale/mos/LC_MESSAGES
+@dirrmtry usr/share/locale/mos
 @dirrmtry usr/share/locale/mr/LC_MESSAGES
 @dirrmtry usr/share/locale/mr
 @dirrmtry usr/share/locale/ms/LC_MESSAGES
 @dirrmtry usr/share/locale/ms/LC_TIME
 @dirrmtry usr/share/locale/ms
+@dirrmtry usr/share/locale/ms_MY/LC_MESSAGES
+@dirrmtry usr/share/locale/ms_MY
+@dirrmtry usr/share/locale/mt/LC_MESSAGES
+@dirrmtry usr/share/locale/mt
+@dirrmtry usr/share/locale/mul/LC_MESSAGES
+@dirrmtry usr/share/locale/mul
+@dirrmtry usr/share/locale/mun/LC_MESSAGES
+@dirrmtry usr/share/locale/mun
+@dirrmtry usr/share/locale/mus/LC_MESSAGES
+@dirrmtry usr/share/locale/mus
+@dirrmtry usr/share/locale/mwl/LC_MESSAGES
+@dirrmtry usr/share/locale/mwl
+@dirrmtry usr/share/locale/mwr/LC_MESSAGES
+@dirrmtry usr/share/locale/mwr
+@dirrmtry usr/share/locale/my/LC_MESSAGES
+@dirrmtry usr/share/locale/my
+@dirrmtry usr/share/locale/my_MM/LC_MESSAGES
+@dirrmtry usr/share/locale/my_MM
+@dirrmtry usr/share/locale/myn/LC_MESSAGES
+@dirrmtry usr/share/locale/myn
+@dirrmtry usr/share/locale/myv/LC_MESSAGES
+@dirrmtry usr/share/locale/myv
+@dirrmtry usr/share/locale/na/LC_MESSAGES
+@dirrmtry usr/share/locale/na
+@dirrmtry usr/share/locale/nah/LC_MESSAGES
+@dirrmtry usr/share/locale/nah
+@dirrmtry usr/share/locale/nai/LC_MESSAGES
+@dirrmtry usr/share/locale/nai
+@dirrmtry usr/share/locale/nap/LC_MESSAGES
+@dirrmtry usr/share/locale/nap
 @dirrmtry usr/share/locale/nb/LC_MESSAGES
 @dirrmtry usr/share/locale/nb/LC_TIME
 @dirrmtry usr/share/locale/nb
+@dirrmtry usr/share/locale/nb_NO/LC_MESSAGES
+@dirrmtry usr/share/locale/nb_NO
+@dirrmtry usr/share/locale/nd/LC_MESSAGES
+@dirrmtry usr/share/locale/nd
 @dirrmtry usr/share/locale/nds/LC_MESSAGES
 @dirrmtry usr/share/locale/nds
+@dirrmtry usr/share/locale/nds@NFE/LC_MESSAGES
+@dirrmtry usr/share/locale/nds@NFE
+@dirrmtry usr/share/locale/nds_DE/LC_MESSAGES
+@dirrmtry usr/share/locale/nds_DE
 @dirrmtry usr/share/locale/ne/LC_MESSAGES
 @dirrmtry usr/share/locale/ne
+@dirrmtry usr/share/locale/new/LC_MESSAGES
+@dirrmtry usr/share/locale/new
+@dirrmtry usr/share/locale/ng/LC_MESSAGES
+@dirrmtry usr/share/locale/ng
+@dirrmtry usr/share/locale/nia/LC_MESSAGES
+@dirrmtry usr/share/locale/nia
+@dirrmtry usr/share/locale/nic/LC_MESSAGES
+@dirrmtry usr/share/locale/nic
+@dirrmtry usr/share/locale/niu/LC_MESSAGES
+@dirrmtry usr/share/locale/niu
 @dirrmtry usr/share/locale/nl/LC_MESSAGES
 @dirrmtry usr/share/locale/nl/LC_TIME
 @dirrmtry usr/share/locale/nl
+@dirrmtry usr/share/locale/nl_BE/LC_MESSAGES
+@dirrmtry usr/share/locale/nl_BE
+@dirrmtry usr/share/locale/nl_NL/LC_MESSAGES
+@dirrmtry usr/share/locale/nl_NL
 @dirrmtry usr/share/locale/nn/LC_MESSAGES
 @dirrmtry usr/share/locale/nn
+@dirrmtry usr/share/locale/no/LC_MESSAGES
+@dirrmtry usr/share/locale/no
+@dirrmtry usr/share/locale/nog/LC_MESSAGES
+@dirrmtry usr/share/locale/nog
+@dirrmtry usr/share/locale/non/LC_MESSAGES
+@dirrmtry usr/share/locale/non
+@dirrmtry usr/share/locale/nqo/LC_MESSAGES
+@dirrmtry usr/share/locale/nqo
+@dirrmtry usr/share/locale/nr/LC_MESSAGES
+@dirrmtry usr/share/locale/nr
+@dirrmtry usr/share/locale/nso/LC_MESSAGES
+@dirrmtry usr/share/locale/nso
+@dirrmtry usr/share/locale/nub/LC_MESSAGES
+@dirrmtry usr/share/locale/nub
+@dirrmtry usr/share/locale/nv/LC_MESSAGES
+@dirrmtry usr/share/locale/nv
+@dirrmtry usr/share/locale/nwc/LC_MESSAGES
+@dirrmtry usr/share/locale/nwc
+@dirrmtry usr/share/locale/ny/LC_MESSAGES
+@dirrmtry usr/share/locale/ny
+@dirrmtry usr/share/locale/nym/LC_MESSAGES
+@dirrmtry usr/share/locale/nym
+@dirrmtry usr/share/locale/nyn/LC_MESSAGES
+@dirrmtry usr/share/locale/nyn
+@dirrmtry usr/share/locale/nyo/LC_MESSAGES
+@dirrmtry usr/share/locale/nyo
+@dirrmtry usr/share/locale/nzi/LC_MESSAGES
+@dirrmtry usr/share/locale/nzi
 @dirrmtry usr/share/locale/oc/LC_MESSAGES
 @dirrmtry usr/share/locale/oc
+@dirrmtry usr/share/locale/oj/LC_MESSAGES
+@dirrmtry usr/share/locale/oj
+@dirrmtry usr/share/locale/om/LC_MESSAGES
+@dirrmtry usr/share/locale/om
 @dirrmtry usr/share/locale/or/LC_MESSAGES
 @dirrmtry usr/share/locale/or
+@dirrmtry usr/share/locale/os/LC_MESSAGES
+@dirrmtry usr/share/locale/os
+@dirrmtry usr/share/locale/osa/LC_MESSAGES
+@dirrmtry usr/share/locale/osa
+@dirrmtry usr/share/locale/ota/LC_MESSAGES
+@dirrmtry usr/share/locale/ota
+@dirrmtry usr/share/locale/oto/LC_MESSAGES
+@dirrmtry usr/share/locale/oto
 @dirrmtry usr/share/locale/pa/LC_MESSAGES
 @dirrmtry usr/share/locale/pa
+@dirrmtry usr/share/locale/paa/LC_MESSAGES
+@dirrmtry usr/share/locale/paa
+@dirrmtry usr/share/locale/pag/LC_MESSAGES
+@dirrmtry usr/share/locale/pag
+@dirrmtry usr/share/locale/pal/LC_MESSAGES
+@dirrmtry usr/share/locale/pal
+@dirrmtry usr/share/locale/pam/LC_MESSAGES
+@dirrmtry usr/share/locale/pam
+@dirrmtry usr/share/locale/pap/LC_MESSAGES
+@dirrmtry usr/share/locale/pap
+@dirrmtry usr/share/locale/pau/LC_MESSAGES
+@dirrmtry usr/share/locale/pau
+@dirrmtry usr/share/locale/peo/LC_MESSAGES
+@dirrmtry usr/share/locale/peo
+@dirrmtry usr/share/locale/phi/LC_MESSAGES
+@dirrmtry usr/share/locale/phi
+@dirrmtry usr/share/locale/phn/LC_MESSAGES
+@dirrmtry usr/share/locale/phn
+@dirrmtry usr/share/locale/pi/LC_MESSAGES
+@dirrmtry usr/share/locale/pi
 @dirrmtry usr/share/locale/pl/LC_MESSAGES
 @dirrmtry usr/share/locale/pl/LC_TIME
 @dirrmtry usr/share/locale/pl
+@dirrmtry usr/share/locale/pl_PL/LC_MESSAGES
+@dirrmtry usr/share/locale/pl_PL
+@dirrmtry usr/share/locale/pon/LC_MESSAGES
+@dirrmtry usr/share/locale/pon
+@dirrmtry usr/share/locale/pra/LC_MESSAGES
+@dirrmtry usr/share/locale/pra
+@dirrmtry usr/share/locale/pro/LC_MESSAGES
+@dirrmtry usr/share/locale/pro
 @dirrmtry usr/share/locale/ps/LC_MESSAGES
 @dirrmtry usr/share/locale/ps
 @dirrmtry usr/share/locale/pt/LC_MESSAGES
@@ -2383,86 +3143,385 @@ var/yp/nicknames
 @dirrmtry usr/share/locale/pt_BR/LC_MESSAGES
 @dirrmtry usr/share/locale/pt_BR/LC_TIME
 @dirrmtry usr/share/locale/pt_BR
+@dirrmtry usr/share/locale/pt_PT/LC_MESSAGES
+@dirrmtry usr/share/locale/pt_PT
+@dirrmtry usr/share/locale/qaa-qtz/LC_MESSAGES
+@dirrmtry usr/share/locale/qaa-qtz
+@dirrmtry usr/share/locale/qu/LC_MESSAGES
+@dirrmtry usr/share/locale/qu
+@dirrmtry usr/share/locale/raj/LC_MESSAGES
+@dirrmtry usr/share/locale/raj
+@dirrmtry usr/share/locale/rap/LC_MESSAGES
+@dirrmtry usr/share/locale/rap
+@dirrmtry usr/share/locale/rar/LC_MESSAGES
+@dirrmtry usr/share/locale/rar
+@dirrmtry usr/share/locale/rm/LC_MESSAGES
+@dirrmtry usr/share/locale/rm
+@dirrmtry usr/share/locale/rn/LC_MESSAGES
+@dirrmtry usr/share/locale/rn
 @dirrmtry usr/share/locale/ro/LC_MESSAGES
 @dirrmtry usr/share/locale/ro/LC_TIME
 @dirrmtry usr/share/locale/ro
+@dirrmtry usr/share/locale/roa/LC_MESSAGES
+@dirrmtry usr/share/locale/roa
+@dirrmtry usr/share/locale/rom/LC_MESSAGES
+@dirrmtry usr/share/locale/rom
 @dirrmtry usr/share/locale/ru/LC_MESSAGES
 @dirrmtry usr/share/locale/ru/LC_TIME
 @dirrmtry usr/share/locale/ru
+@dirrmtry usr/share/locale/ru_RU/LC_MESSAGES
+@dirrmtry usr/share/locale/ru_RU
+@dirrmtry usr/share/locale/rup/LC_MESSAGES
+@dirrmtry usr/share/locale/rup
 @dirrmtry usr/share/locale/rw/LC_MESSAGES
 @dirrmtry usr/share/locale/rw
+@dirrmtry usr/share/locale/sa/LC_MESSAGES
+@dirrmtry usr/share/locale/sa
+@dirrmtry usr/share/locale/sad/LC_MESSAGES
+@dirrmtry usr/share/locale/sad
+@dirrmtry usr/share/locale/sah/LC_MESSAGES
+@dirrmtry usr/share/locale/sah
+@dirrmtry usr/share/locale/sai/LC_MESSAGES
+@dirrmtry usr/share/locale/sai
+@dirrmtry usr/share/locale/sal/LC_MESSAGES
+@dirrmtry usr/share/locale/sal
+@dirrmtry usr/share/locale/sam/LC_MESSAGES
+@dirrmtry usr/share/locale/sam
+@dirrmtry usr/share/locale/sas/LC_MESSAGES
+@dirrmtry usr/share/locale/sas
+@dirrmtry usr/share/locale/sat/LC_MESSAGES
+@dirrmtry usr/share/locale/sat
+@dirrmtry usr/share/locale/sc/LC_MESSAGES
+@dirrmtry usr/share/locale/sc
+@dirrmtry usr/share/locale/scn/LC_MESSAGES
+@dirrmtry usr/share/locale/scn
+@dirrmtry usr/share/locale/sco/LC_MESSAGES
+@dirrmtry usr/share/locale/sco
+@dirrmtry usr/share/locale/sd/LC_MESSAGES
+@dirrmtry usr/share/locale/sd
+@dirrmtry usr/share/locale/se/LC_MESSAGES
+@dirrmtry usr/share/locale/se
+@dirrmtry usr/share/locale/sel/LC_MESSAGES
+@dirrmtry usr/share/locale/sel
+@dirrmtry usr/share/locale/sem/LC_MESSAGES
+@dirrmtry usr/share/locale/sem
+@dirrmtry usr/share/locale/sg/LC_MESSAGES
+@dirrmtry usr/share/locale/sg
+@dirrmtry usr/share/locale/sga/LC_MESSAGES
+@dirrmtry usr/share/locale/sga
+@dirrmtry usr/share/locale/sgn/LC_MESSAGES
+@dirrmtry usr/share/locale/sgn
+@dirrmtry usr/share/locale/shn/LC_MESSAGES
+@dirrmtry usr/share/locale/shn
 @dirrmtry usr/share/locale/si/LC_MESSAGES
 @dirrmtry usr/share/locale/si
+@dirrmtry usr/share/locale/sid/LC_MESSAGES
+@dirrmtry usr/share/locale/sid
+@dirrmtry usr/share/locale/sio/LC_MESSAGES
+@dirrmtry usr/share/locale/sio
+@dirrmtry usr/share/locale/sit/LC_MESSAGES
+@dirrmtry usr/share/locale/sit
 @dirrmtry usr/share/locale/sk/LC_MESSAGES
 @dirrmtry usr/share/locale/sk/LC_TIME
 @dirrmtry usr/share/locale/sk
 @dirrmtry usr/share/locale/sl/LC_MESSAGES
 @dirrmtry usr/share/locale/sl/LC_TIME
 @dirrmtry usr/share/locale/sl
+@dirrmtry usr/share/locale/sl_SI/LC_MESSAGES
+@dirrmtry usr/share/locale/sl_SI
+@dirrmtry usr/share/locale/sla/LC_MESSAGES
+@dirrmtry usr/share/locale/sla
+@dirrmtry usr/share/locale/sm/LC_MESSAGES
+@dirrmtry usr/share/locale/sm
+@dirrmtry usr/share/locale/sma/LC_MESSAGES
+@dirrmtry usr/share/locale/sma
+@dirrmtry usr/share/locale/smi/LC_MESSAGES
+@dirrmtry usr/share/locale/smi
+@dirrmtry usr/share/locale/smj/LC_MESSAGES
+@dirrmtry usr/share/locale/smj
+@dirrmtry usr/share/locale/smn/LC_MESSAGES
+@dirrmtry usr/share/locale/smn
+@dirrmtry usr/share/locale/sms/LC_MESSAGES
+@dirrmtry usr/share/locale/sms
+@dirrmtry usr/share/locale/sn/LC_MESSAGES
+@dirrmtry usr/share/locale/sn
+@dirrmtry usr/share/locale/snk/LC_MESSAGES
+@dirrmtry usr/share/locale/snk
+@dirrmtry usr/share/locale/so/LC_MESSAGES
+@dirrmtry usr/share/locale/so
+@dirrmtry usr/share/locale/sog/LC_MESSAGES
+@dirrmtry usr/share/locale/sog
+@dirrmtry usr/share/locale/son/LC_MESSAGES
+@dirrmtry usr/share/locale/son
 @dirrmtry usr/share/locale/sq/LC_MESSAGES
 @dirrmtry usr/share/locale/sq
+@dirrmtry usr/share/locale/sq_AL/LC_MESSAGES
+@dirrmtry usr/share/locale/sq_AL
 @dirrmtry usr/share/locale/sr/LC_MESSAGES
 @dirrmtry usr/share/locale/sr
+@dirrmtry usr/share/locale/sr@Latn/LC_MESSAGES
+@dirrmtry usr/share/locale/sr@Latn
 @dirrmtry usr/share/locale/sr@ije/LC_MESSAGES
 @dirrmtry usr/share/locale/sr@ije
+@dirrmtry usr/share/locale/sr@ijekavian/LC_MESSAGES
+@dirrmtry usr/share/locale/sr@ijekavian
+@dirrmtry usr/share/locale/sr@ijekavianlatin/LC_MESSAGES
+@dirrmtry usr/share/locale/sr@ijekavianlatin
 @dirrmtry usr/share/locale/sr@latin/LC_MESSAGES
 @dirrmtry usr/share/locale/sr@latin
+@dirrmtry usr/share/locale/sr_RS/LC_MESSAGES
+@dirrmtry usr/share/locale/sr_RS
+@dirrmtry usr/share/locale/srn/LC_MESSAGES
+@dirrmtry usr/share/locale/srn
+@dirrmtry usr/share/locale/srr/LC_MESSAGES
+@dirrmtry usr/share/locale/srr
+@dirrmtry usr/share/locale/ss/LC_MESSAGES
+@dirrmtry usr/share/locale/ss
+@dirrmtry usr/share/locale/ssa/LC_MESSAGES
+@dirrmtry usr/share/locale/ssa
+@dirrmtry usr/share/locale/st/LC_MESSAGES
+@dirrmtry usr/share/locale/st
+@dirrmtry usr/share/locale/su/LC_MESSAGES
+@dirrmtry usr/share/locale/su
+@dirrmtry usr/share/locale/suk/LC_MESSAGES
+@dirrmtry usr/share/locale/suk
+@dirrmtry usr/share/locale/sus/LC_MESSAGES
+@dirrmtry usr/share/locale/sus
+@dirrmtry usr/share/locale/sux/LC_MESSAGES
+@dirrmtry usr/share/locale/sux
 @dirrmtry usr/share/locale/sv/LC_MESSAGES
 @dirrmtry usr/share/locale/sv/LC_TIME
 @dirrmtry usr/share/locale/sv
+@dirrmtry usr/share/locale/sv_SE/LC_MESSAGES
+@dirrmtry usr/share/locale/sv_SE
+@dirrmtry usr/share/locale/sw/LC_MESSAGES
+@dirrmtry usr/share/locale/sw
+@dirrmtry usr/share/locale/syc/LC_MESSAGES
+@dirrmtry usr/share/locale/syc
+@dirrmtry usr/share/locale/syr/LC_MESSAGES
+@dirrmtry usr/share/locale/syr
 @dirrmtry usr/share/locale/ta/LC_MESSAGES
 @dirrmtry usr/share/locale/ta
+@dirrmtry usr/share/locale/tai/LC_MESSAGES
+@dirrmtry usr/share/locale/tai
 @dirrmtry usr/share/locale/te/LC_MESSAGES
 @dirrmtry usr/share/locale/te
+@dirrmtry usr/share/locale/tem/LC_MESSAGES
+@dirrmtry usr/share/locale/tem
+@dirrmtry usr/share/locale/ter/LC_MESSAGES
+@dirrmtry usr/share/locale/ter
+@dirrmtry usr/share/locale/tet/LC_MESSAGES
+@dirrmtry usr/share/locale/tet
 @dirrmtry usr/share/locale/tg/LC_MESSAGES
 @dirrmtry usr/share/locale/tg
 @dirrmtry usr/share/locale/th/LC_MESSAGES
 @dirrmtry usr/share/locale/th
+@dirrmtry usr/share/locale/ti/LC_MESSAGES
+@dirrmtry usr/share/locale/ti
+@dirrmtry usr/share/locale/tig/LC_MESSAGES
+@dirrmtry usr/share/locale/tig
+@dirrmtry usr/share/locale/tiv/LC_MESSAGES
+@dirrmtry usr/share/locale/tiv
+@dirrmtry usr/share/locale/tk/LC_MESSAGES
+@dirrmtry usr/share/locale/tk
+@dirrmtry usr/share/locale/tkl/LC_MESSAGES
+@dirrmtry usr/share/locale/tkl
 @dirrmtry usr/share/locale/tl/LC_MESSAGES
 @dirrmtry usr/share/locale/tl
+@dirrmtry usr/share/locale/tlh/LC_MESSAGES
+@dirrmtry usr/share/locale/tlh
+@dirrmtry usr/share/locale/tli/LC_MESSAGES
+@dirrmtry usr/share/locale/tli
+@dirrmtry usr/share/locale/tmh/LC_MESSAGES
+@dirrmtry usr/share/locale/tmh
+@dirrmtry usr/share/locale/tn/LC_MESSAGES
+@dirrmtry usr/share/locale/tn
+@dirrmtry usr/share/locale/to/LC_MESSAGES
+@dirrmtry usr/share/locale/to
+@dirrmtry usr/share/locale/tog/LC_MESSAGES
+@dirrmtry usr/share/locale/tog
+@dirrmtry usr/share/locale/tpi/LC_MESSAGES
+@dirrmtry usr/share/locale/tpi
 @dirrmtry usr/share/locale/tr/LC_MESSAGES
 @dirrmtry usr/share/locale/tr/LC_TIME
 @dirrmtry usr/share/locale/tr
+@dirrmtry usr/share/locale/ts/LC_MESSAGES
+@dirrmtry usr/share/locale/ts
+@dirrmtry usr/share/locale/tsi/LC_MESSAGES
+@dirrmtry usr/share/locale/tsi
 @dirrmtry usr/share/locale/tt/LC_MESSAGES
 @dirrmtry usr/share/locale/tt
+@dirrmtry usr/share/locale/tum/LC_MESSAGES
+@dirrmtry usr/share/locale/tum
+@dirrmtry usr/share/locale/tup/LC_MESSAGES
+@dirrmtry usr/share/locale/tup
+@dirrmtry usr/share/locale/tut/LC_MESSAGES
+@dirrmtry usr/share/locale/tut
+@dirrmtry usr/share/locale/tvl/LC_MESSAGES
+@dirrmtry usr/share/locale/tvl
+@dirrmtry usr/share/locale/tw/LC_MESSAGES
+@dirrmtry usr/share/locale/tw
+@dirrmtry usr/share/locale/ty/LC_MESSAGES
+@dirrmtry usr/share/locale/ty
+@dirrmtry usr/share/locale/tyv/LC_MESSAGES
+@dirrmtry usr/share/locale/tyv
+@dirrmtry usr/share/locale/udm/LC_MESSAGES
+@dirrmtry usr/share/locale/udm
 @dirrmtry usr/share/locale/ug/LC_MESSAGES
 @dirrmtry usr/share/locale/ug
+@dirrmtry usr/share/locale/uga/LC_MESSAGES
+@dirrmtry usr/share/locale/uga
 @dirrmtry usr/share/locale/uk/LC_MESSAGES
 @dirrmtry usr/share/locale/uk/LC_TIME
 @dirrmtry usr/share/locale/uk
+@dirrmtry usr/share/locale/uk_UA/LC_MESSAGES
+@dirrmtry usr/share/locale/uk_UA
+@dirrmtry usr/share/locale/umb/LC_MESSAGES
+@dirrmtry usr/share/locale/umb
+@dirrmtry usr/share/locale/und/LC_MESSAGES
+@dirrmtry usr/share/locale/und
+@dirrmtry usr/share/locale/ur/LC_MESSAGES
+@dirrmtry usr/share/locale/ur
+@dirrmtry usr/share/locale/ur_PK/LC_MESSAGES
+@dirrmtry usr/share/locale/ur_PK
+@dirrmtry usr/share/locale/uz/LC_MESSAGES
+@dirrmtry usr/share/locale/uz
+@dirrmtry usr/share/locale/uz@Latn/LC_MESSAGES
+@dirrmtry usr/share/locale/uz@Latn
+@dirrmtry usr/share/locale/uz@cyrillic/LC_MESSAGES
+@dirrmtry usr/share/locale/uz@cyrillic
+@dirrmtry usr/share/locale/vai/LC_MESSAGES
+@dirrmtry usr/share/locale/vai
+@dirrmtry usr/share/locale/ve/LC_MESSAGES
+@dirrmtry usr/share/locale/ve
 @dirrmtry usr/share/locale/vi/LC_MESSAGES
 @dirrmtry usr/share/locale/vi/LC_TIME
 @dirrmtry usr/share/locale/vi
+@dirrmtry usr/share/locale/vo/LC_MESSAGES
+@dirrmtry usr/share/locale/vo
+@dirrmtry usr/share/locale/vot/LC_MESSAGES
+@dirrmtry usr/share/locale/vot
 @dirrmtry usr/share/locale/wa/LC_MESSAGES
 @dirrmtry usr/share/locale/wa
+@dirrmtry usr/share/locale/wak/LC_MESSAGES
+@dirrmtry usr/share/locale/wak
+@dirrmtry usr/share/locale/wal/LC_MESSAGES
+@dirrmtry usr/share/locale/wal
+@dirrmtry usr/share/locale/war/LC_MESSAGES
+@dirrmtry usr/share/locale/war
+@dirrmtry usr/share/locale/was/LC_MESSAGES
+@dirrmtry usr/share/locale/was
+@dirrmtry usr/share/locale/wen/LC_MESSAGES
+@dirrmtry usr/share/locale/wen
+@dirrmtry usr/share/locale/wo/LC_MESSAGES
+@dirrmtry usr/share/locale/wo
+@dirrmtry usr/share/locale/xal/LC_MESSAGES
+@dirrmtry usr/share/locale/xal
 @dirrmtry usr/share/locale/xh/LC_MESSAGES
 @dirrmtry usr/share/locale/xh
+@dirrmtry usr/share/locale/yao/LC_MESSAGES
+@dirrmtry usr/share/locale/yao
+@dirrmtry usr/share/locale/yap/LC_MESSAGES
+@dirrmtry usr/share/locale/yap
 @dirrmtry usr/share/locale/yi/LC_MESSAGES
 @dirrmtry usr/share/locale/yi
+@dirrmtry usr/share/locale/yo/LC_MESSAGES
+@dirrmtry usr/share/locale/yo
+@dirrmtry usr/share/locale/ypk/LC_MESSAGES
+@dirrmtry usr/share/locale/ypk
+@dirrmtry usr/share/locale/za/LC_MESSAGES
+@dirrmtry usr/share/locale/za
+@dirrmtry usr/share/locale/zap/LC_MESSAGES
+@dirrmtry usr/share/locale/zap
+@dirrmtry usr/share/locale/zbl/LC_MESSAGES
+@dirrmtry usr/share/locale/zbl
+@dirrmtry usr/share/locale/zen/LC_MESSAGES
+@dirrmtry usr/share/locale/zen
+@dirrmtry usr/share/locale/zgh/LC_MESSAGES
+@dirrmtry usr/share/locale/zgh
+@dirrmtry usr/share/locale/zh/LC_MESSAGES
+@dirrmtry usr/share/locale/zh
 @dirrmtry usr/share/locale/zh_CN/LC_MESSAGES
 @dirrmtry usr/share/locale/zh_CN/LC_TIME
 @dirrmtry usr/share/locale/zh_CN
+@dirrmtry usr/share/locale/zh_CN.GB2312/LC_MESSAGES
+@dirrmtry usr/share/locale/zh_CN.GB2312
 @dirrmtry usr/share/locale/zh_HK/LC_MESSAGES
 @dirrmtry usr/share/locale/zh_HK
 @dirrmtry usr/share/locale/zh_TW/LC_MESSAGES
 @dirrmtry usr/share/locale/zh_TW/LC_TIME
 @dirrmtry usr/share/locale/zh_TW
+@dirrmtry usr/share/locale/zh_TW.Big5/LC_MESSAGES
+@dirrmtry usr/share/locale/zh_TW.Big5
+@dirrmtry usr/share/locale/znd/LC_MESSAGES
+@dirrmtry usr/share/locale/znd
+@dirrmtry usr/share/locale/zu/LC_MESSAGES
+@dirrmtry usr/share/locale/zu
+@dirrmtry usr/share/locale/zun/LC_MESSAGES
+@dirrmtry usr/share/locale/zun
+@dirrmtry usr/share/locale/zxx/LC_MESSAGES
+@dirrmtry usr/share/locale/zxx
+@dirrmtry usr/share/locale/zza/LC_MESSAGES
+@dirrmtry usr/share/locale/zza
 @dirrmtry usr/share/locale
+@dirrmtry usr/share/man/man0p
 @dirrmtry usr/share/man/man1
+@dirrmtry usr/share/man/man1p
+@dirrmtry usr/share/man/man1x
+@dirrmtry usr/share/man/man2
+@dirrmtry usr/share/man/man2x
+@dirrmtry usr/share/man/man3
+@dirrmtry usr/share/man/man3p
+@dirrmtry usr/share/man/man3x
+@dirrmtry usr/share/man/man4
+@dirrmtry usr/share/man/man4x
 @dirrmtry usr/share/man/man5
+@dirrmtry usr/share/man/man5x
+@dirrmtry usr/share/man/man6
+@dirrmtry usr/share/man/man6x
 @dirrmtry usr/share/man/man7
+@dirrmtry usr/share/man/man7x
 @dirrmtry usr/share/man/man8
+@dirrmtry usr/share/man/man8x
+@dirrmtry usr/share/man/man9
+@dirrmtry usr/share/man/man9x
+@dirrmtry usr/share/man/mann
 @dirrmtry usr/share/man
+@dirrmtry usr/share/mime-info
+@dirrmtry usr/share/misc
+@dirrmtry usr/share/omf
+@dirrmtry usr/share/pixmaps
+@dirrmtry usr/share/sounds
+@dirrmtry usr/share/themes
+@dirrmtry usr/share/xsessions
 @dirrmtry usr/share
+@dirrmtry usr/src/debug
+@dirrmtry usr/src/kernels
+@dirrmtry usr/src
 @dirrmtry usr
+@dirrmtry var/adm
 @dirrmtry var/cache/ldconfig
 @dirrmtry var/cache
 @dirrmtry var/db
+@dirrmtry var/empty
+@dirrmtry var/games
+@dirrmtry var/gopher
 @dirrmtry var/kerberos/krb5/user
 @dirrmtry var/kerberos/krb5
 @dirrmtry var/kerberos
+@dirrmtry var/lib/games
+@dirrmtry var/lib/misc
+@dirrmtry var/lib/rpm-state
+@dirrmtry var/lib
+@dirrmtry var/local
 @dirrmtry var/log
+@dirrmtry var/nis
+@dirrmtry var/opt
+@dirrmtry var/preserve
 @dirrmtry var/run
+@dirrmtry var/spool/lpd
+@dirrmtry var/spool/mail
+@dirrmtry var/spool
 @dirrmtry var/tmp
 @dirrmtry var/yp/binding
 @dirrmtry var/yp
