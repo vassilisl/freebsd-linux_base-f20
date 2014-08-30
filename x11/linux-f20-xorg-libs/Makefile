@@ -12,7 +12,7 @@ EXTRACT_ONLY=		${DISTFILES} ${DISTFILES_DEPS}
 MAINTAINER=		vassilis@einval.com
 COMMENT=		Xorg libraries (Linux Fedora 20)
 
-RUN_DEPENDS=		/compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_base-fc20 \
+RUN_DEPENDS=		/compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_base-f20 \
 					/compat/linux/usr/lib/libfontconfig.so.1:${PORTSDIR}/x11-fonts/linux-f20-fontconfig
 
 BIN_DISTFILES=	\

@@ -22,7 +22,7 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
-RUN_DEPENDS=		/compat/linux/lib/libc.so.6:${PORTSDIRPORTSDIR}/emulators/linux_base-fc20 \
+RUN_DEPENDS=		/compat/linux/lib/libc.so.6:${PORTSDIRPORTSDIR}/emulators/linux_base-f20 \
 					/compat/linux/lib/libdbus-1.so.3:${PORTSDIR}/devel/linux-f20-dbus-libs
 
 EXTRACT_CMD?=		${TAR}
