@@ -23,7 +23,14 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
-RUN_DEPENDS=	${LOCALBASE}/bin/pulseaudio:${PORTSDIR}/audio/pulseaudio
+RUN_DEPENDS=	${LOCALBASE}/bin/pulseaudio:${PORTSDIR}/audio/pulseaudio \
+				/compat/linux/usr/lib/libsndfile.so.1:${PORTSDIR}/audio/linux-f20-libsndfile \
+				/compat/linux/usr/lib/libasyncns.so.0:${PORTSDIR}/dns/linux-f20-libasyncns \
+				/compat/linux/usr/lib/libwrap.so.0:${PORTSDIR}/devel/linux-f20-tcp_wrappers-libs \
+				/compat/linux/usr/lib/libjson-c.so.2:${PORTSDIR}/devel/linux-f20-jsonc-libs \
+				/compat/linux/usr/lib/libX11.so.6:${PORTSDIR}/x11/linux-f20-xorg-libs \
+				/compat/linux/usr/lib/libdbus-1.so.3:${PORTSDIR}/devel/linux-f20-dbus-libs
+
 
 CONFLICTS=		linux-f10-pulseaudio-libs-[0-9]
 
