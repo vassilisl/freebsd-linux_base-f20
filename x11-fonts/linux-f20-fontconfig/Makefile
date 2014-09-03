@@ -23,7 +23,7 @@ NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 RUN_DEPENDS=        /compat/linux/usr/lib/libexpat.so.1:${PORTSDIR}/devel/linux-f20-expat \
 					/compat/linux/usr/lib/libfreetype.so.6:${PORTSDIR}/emulators/linux_base-f20 \
-					/compat/linux/usr/share/fontconfig/conf.avail:${PORTSDIR}/linux-f20-fontpackages-filesystem
+					/compat/linux/usr/share/fontconfig/conf.avail:${PORTSDIR}/x11-fonts/linux-f20-fontpackages-filesystem
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
