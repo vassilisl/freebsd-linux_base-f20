@@ -12,7 +12,7 @@ MAINTAINER=	vassilis@einval.com
 COMMENT=	Library for reading and writing sound files (Linux Fedora 20)
 
 RUN_DEPENDS=		/compat/linux/usr/lib/libFLAC.so.8:${PORTSDIR}/audio/linux-f20-flac-libs \
-					/compat/linux/usr/lib/libgsm.so.1:${PORTSDIR}/audio/linux-f20-libgsm \
+					/compat/linux/usr/lib/libgsm.so.1:${PORTSDIR}/audio/linux-f20-gsm \
 					/compat/linux/usr/lib/libogg.so.0:${PORTSDIR}/audio/linux-f20-libogg \
 					/compat/linux/usr/lib/libvorbis.so.0:${PORTSDIR}/audio/linux-f20-libvorbis
 
