@@ -22,7 +22,7 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
-RUN_DEPENDS=		/compat/linux/usr/lib/libxml2.so.2:${PORTDIR}/devel/linux-f20-libxslt
+RUN_DEPENDS=		/compat/linux/usr/lib/libxslt.so.1:${PORTSDIR}/devel/linux-f20-libxslt
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf

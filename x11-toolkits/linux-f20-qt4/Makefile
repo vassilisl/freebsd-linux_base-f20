@@ -19,7 +19,6 @@ BIN_DISTFILES=	\
 # of the user's choice in /usr/ports/Mk/bsd.linux-apps.mk
 DISTFILES_DEPS=	\
 		#f/fontconfig-2.11.0-1.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm
-#l/libmng-1.0.10-12.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm
 
 ONLY_FOR_ARCHS=	i386 amd64
 LINUX_CPU_ARCH=		i386
@@ -32,8 +31,9 @@ DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 RUN_DEPENDS=		/compat/linux/usr/bin/update-ca-trust:${PORTSDIR}/security/linux-f20-ca-certificates \
 					/compat/linux/lib/libdbus-1.so.3:${PORTSDIR}/devel/linux-f20-dbus-libs \
 					/compat/linux/usr/lib/libcrypto.so.10:${PORTSDIR}/security/linux-f20-openssl-libs \
-					/compat/linux/usr/lib/libsqlite3.so.0:${PORTDIR}/databases/linux-f20-sqlite3 \
+					/compat/linux/usr/lib/libsqlite3.so.0:${PORTSDIR}/databases/linux-f20-sqlite3 \
 					/compat/linux/usr/lib/libssl.so.10:${PORTSDIR}/security/linux-f20-openssl-libs \
+					/compat/linux/usr/lib/libmng.so.1:${PORTSDIR}/graphics/linux-f20-libmng \
 					/compat/linux/usr/lib/libGL.so.1:${PORTSDIR}/graphics/linux-f20-mesa-libGL
 
 EXTRACT_CMD?=		${TAR}

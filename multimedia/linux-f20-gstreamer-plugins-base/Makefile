@@ -33,9 +33,9 @@ RUN_DEPENDS=		/compat/linux/usr/lib/libgstreamer-0.10.so.0:${PORTSDIR}/multimedi
 					/compat/linux/usr/lib/libpango-1.0.so.0:${PORTSDIR}/x11-toolkits/linux-f20-pango \
 					/compat/linux/usr/lib/libcairo.so.2:${PORTSDIR}/graphics/linux-f20-cairo \
 					/compat/linux/lib/libasound.so.2:${PORTSDIR}/audio/linux-f20-alsa-lib \
-					/compat/linux/lib/usr/lib/liborc-0.4.so.0:${PORTSDIR}./devel/linux-f20-orc \
+					/compat/linux/lib/usr/lib/liborc-0.4.so.0:${PORTSDIR}/devel/linux-f20-orc \
 					/compat/linux/usr/lib/libxml2.so.2:${PORTSDIR}/devel/linux-f20-libxml2 \
-					/compat/linux/usr/lib/libtheoradec.so.1:${PORTDIR}/multimedia/linux-f20-libtheora \
+					/compat/linux/usr/lib/libtheoradec.so.1:${PORTSDIR}/multimedia/linux-f20-libtheora \
 					/compat/linux/usr/lib/libcdda_paranoia.so.0:${PORTSDIR}/audio/linux-f20-cdparanoia-libs
 
 
