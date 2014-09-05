@@ -25,7 +25,6 @@ DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 RUN_DEPENDS=		/compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_base-f20 \
 					/compat/linux/lib/usr/lib/libnspr4.so:${PORTSDIR}/devel/linux-f20-nspr4 \
 					/compat/linux/usr/lib/libnssutil3.so:${PORTSDIR}/security/linux-f20-nss-util \
-					/compat/linux/usr/lib/libfreebl3.so:${PORTSDIR}/security/linux-f20-nss-softokn-freebl \
 					/compat/linux/usr/lib/libsqlite3.so.0:${PORTSDIR}databases/linux-f20-sqlite3
 
 EXTRACT_CMD?=		${TAR}

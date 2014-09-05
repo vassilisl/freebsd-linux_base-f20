@@ -22,8 +22,7 @@ LINUX_RPM_VERSION=	20
 USE_LINUX_PREFIX=	yes
 NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
-RUN_DEPENDS=		/compat/linux/usr/lib/libfreebl3.so:${PORTSDIR}/security/linux-f20-nss-softokn-freebl \
-					/compat/linux/usr/lib/libsoftokn3.so:${PORTSDIR}/security/linux-f20-nss-softokn \
+RUN_DEPENDS=		/compat/linux/usr/lib/libsoftokn3.so:${PORTSDIR}/security/linux-f20-nss-softokn \
 					/compat/linux/usr/lib/libnssutil3.so:${PORTSDIR}/security/linux-f20-nss-util
 
 CONFLICTS=		linux-f10-nss-[0-9]*
