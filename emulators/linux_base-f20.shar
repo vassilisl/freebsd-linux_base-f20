@@ -67,6 +67,7 @@ X				l/libstdc++-4.8.2-1.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 X				l/libuuid-2.24-2.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 X				n/ncurses-5.9-12.20130511.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 X				n/ncurses-libs-5.9-12.20130511.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
+X				n/nss-softokn-freebl-3.15.2-2.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 X				p/pcre-8.33-2.fc${LINUX_RPM_VERSION}.1.${LINUX_RPM_ARCH}.rpm \
 X				p/popt-1.13-15.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 X				r/readline-6.2-8.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
@@ -260,6 +261,8 @@ XSHA256 (rpm/i686/fedora/20/n/ncurses-5.9-12.20130511.fc20.i686.rpm) = 24ed99ea8
 XSIZE (rpm/i686/fedora/20/n/ncurses-5.9-12.20130511.fc20.i686.rpm) = 310872
 XSHA256 (rpm/i686/fedora/20/n/ncurses-libs-5.9-12.20130511.fc20.i686.rpm) = a2f392129ccb17a273c4c52b9ce404dec1a49a86fd9bcb1aeee9c720a206e56a
 XSIZE (rpm/i686/fedora/20/n/ncurses-libs-5.9-12.20130511.fc20.i686.rpm) = 311908
+XSHA256 (rpm/i686/fedora/20/n/nss-softokn-freebl-3.15.2-2.fc20.i686.rpm) = b1fe3bd7c2a10a2fd7f6f0f271d8c881611a0ee812afaa603a71a7c1dcdacba1
+XSIZE (rpm/i686/fedora/20/n/nss-softokn-freebl-3.15.2-2.fc20.i686.rpm) = 182852
 XSHA256 (rpm/i686/fedora/20/p/pcre-8.33-2.fc20.1.i686.rpm) = d83f567036b3d02c67ab0d634c4f7d275ce9888759cb8e1104cca25b84bbd80a
 XSIZE (rpm/i686/fedora/20/p/pcre-8.33-2.fc20.1.i686.rpm) = 459756
 XSHA256 (rpm/i686/fedora/20/p/popt-1.13-15.fc20.i686.rpm) = 0f7d763696ae801e9788226027d7afaa6f42352089f5f3609fe9303db696312c
@@ -850,6 +853,8 @@ Xusr/lib/libform.so.5
 Xusr/lib/libform.so.5.9
 Xusr/lib/libformw.so.5
 Xusr/lib/libformw.so.5.9
+Xusr/lib/libfreebl3.chk
+Xusr/lib/libfreebl3.so
 Xusr/lib/libfreetype.so.6
 Xusr/lib/libfreetype.so.6.10.2
 Xusr/lib/libgamin-1.so.0

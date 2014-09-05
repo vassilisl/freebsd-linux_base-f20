@@ -50,6 +50,7 @@ BIN_DISTFILES=	\
 				l/libuuid-2.24-2.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 				n/ncurses-5.9-12.20130511.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 				n/ncurses-libs-5.9-12.20130511.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
+				n/nss-softokn-freebl-3.15.2-2.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 				p/pcre-8.33-2.fc${LINUX_RPM_VERSION}.1.${LINUX_RPM_ARCH}.rpm \
 				p/popt-1.13-15.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
 				r/readline-6.2-8.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm \
