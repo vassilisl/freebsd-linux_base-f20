@@ -30,6 +30,7 @@ DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 RUN_DEPENDS=		/compat/linux/usr/lib/libQtSensors.so.1:${PORTSDIR}/x11-toolkits/linux-f20-qt-mobility \
 					/compat/linux/usr/lib/libgstapp-0.10.so.0:${PORTSDIR}/multimedia/linux-f20-gstreamer-plugins-base \
 					/compat/linux/usr/lib/libwebp.so.4:${PORTSDIR}/graphics/linux-f20-libwebp \
+					/compat/linux/usr/lib/libxslt.so.1:${PORTSDIR}/devel/linux-f20-libxslt
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
