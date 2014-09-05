@@ -24,7 +24,7 @@ NO_WRKSUBDIR=		yes
 DISTINFO_FILE?=		${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 RUN_DEPENDS=		/compat/linux/usr/lib/libX11.so.6:${PORTSDIR}/x11/linux-f20-xorg-libs \
 					/compat/linux/usr/lib/libglapi.so.0:${PORTSDIR}/graphics/linux-f20-mesa-libglapi \
-					/compat/linux/usr/lib/libdrm.so.2:${PORTSDIR}/graphics/linux-f20-graphics/linux-f20-libdrm
+					/compat/linux/usr/lib/libdrm.so.2:${PORTSDIR}/graphics/linux-f20-libdrm
 
 EXTRACT_CMD?=		${TAR}
 EXTRACT_BEFORE_ARGS?=	-xPf
