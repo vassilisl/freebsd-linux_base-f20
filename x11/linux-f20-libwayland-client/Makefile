@@ -11,7 +11,7 @@ DISTFILES=	${BIN_DISTFILES}
 MAINTAINER=	vassilis@einval.com
 COMMENT=	RPM of Wayland client library (Linux Fedora 20)
 
-RUN_DEPENDS=        /compat/linux/usr/lib/libffi.so.6:{PORTSDIR}/devel/linux-f20-libffi
+RUN_DEPENDS=        /compat/linux/usr/lib/libffi.so.6:${PORTSDIR}/devel/linux-f20-libffi
 
 BIN_DISTFILES=	\
 			l/libwayland-client-1.2.0-3.fc${LINUX_RPM_VERSION}.${LINUX_RPM_ARCH}.rpm

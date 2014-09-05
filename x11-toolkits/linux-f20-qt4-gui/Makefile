@@ -32,6 +32,7 @@ RUN_DEPENDS=		/compat/linux/lib/libasound.so.2:${PORTSDIR}/audio/linux-f20-alsa-
 					/compat/linux/usr/lib/libpng16.so.16:${PORTSDIR}/graphics/linux-f20-libpng \
 					/compat/linux/usr/lib/libtiff.so.5:${PORTSDIR}/graphics/linux-f20-libtiff \
 					/compat/linux/usr/lib/libjbig.so.2.0:${PORTSDIR}/graphics/linux-f20-jbigkit-libs \
+					/compat/linux/usr/lib/libffi.so.6:${PORTSDIR}/devel/linux-f20-libffi \
 					/compat/linux/usr/lib/libQtCore.so.4:${PORTSDIR}/x11-toolkits/linux-f20-qt4
 
 EXTRACT_CMD?=		${TAR}
