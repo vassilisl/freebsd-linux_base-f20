@@ -63,7 +63,7 @@ BIN_DISTFILES=	\
 
 CONFLICTS=		linux_base-gentoo-[0-9]* linux_base-fc4-[0-9]* linux_base-fc6-[0-9]* \
 			linux_base-f7-[0-9]* linux_base-f8-[0-9]* linux_base-f9-[0-9]* \
-			linux_base-c-[0-9]* linux-glib2-[0-9]* linux_base-f10-[0-9]*
+			linux_base-c6-[0-9]* linux-glib2-[0-9]* linux_base-f10-[0-9]*
 
 ONLY_FOR_ARCHS=		i386 amd64
 LINUX_CPU_ARCH=		i386
